@@ -1,0 +1,514 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+	@import url('https://fonts.googleapis.com/css?family=Baloo+Bhai+2&display=swap');
+	@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates&display=swap');
+
+
+
+
+
+
+:root
+{
+	--bg: url(1440x900.jpg) no-repeat;
+	--baloo: 'Baloo Bhai 2', 'Montserrat Alternates', sans-serif;
+	--beb:'Bebas Neue';
+	--content:921px ;
+	/*colors*/
+	--w:white;
+	--r:#ff677d;
+	--zel:#21bf73;
+	--dark:35495e;
+	--zell:#8cba51;
+	--dbl:#0f4c75;
+	--ciel:#3fc5f0;
+	--viol:#380e7f;
+	--dvl:#494ca2;
+	--bl:#3e64ff;
+	--dd:#263859;
+	--bll:#366ed8;
+	--bdl:#556fb5;
+	--rb: linear-gradient(-180deg, rgba(117, 0, 69, 0.64) 0%, rgba(0, 9, 83, 0.64) 100%);
+
+
+
+	
+
+}
+body:before {
+    background: transparent;
+    content: "";
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-size: cover;
+}
+
+
+
+	html, body {
+  height: 100%;
+
+
+
+}
+	
+
+html {
+    cursor: url("raichu.gif"),auto;
+}
+
+
+
+
+ button, input[type=submit], input[type=reset], .logo:hover {
+    cursor: url("raichu1.png"), pointer !important;
+}
+
+
+p {
+
+padding:4.5px;
+}
+hr {
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgb(25, 27, 72), rgba(0,0,0,0));
+    background-image: -o-linear-gradient(left, rgba(0,0,0,0), rgb(25, 27, 72), rgba(0,0,0,0));
+}
+
+
+/*
+
+body:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    z-index: -1;
+    background-color: transparent;
+    background-image: var(--rb);
+}*/
+
+
+h1 {
+    font-size: 1.2em;
+}
+
+
+	body {
+    background: var(--bg);
+    background-size: cover;
+    background-attachment: fixed;
+    
+font-family: 'Baloo Bhai 2', 'Bebas Neue','Montserrat Alternates';
+}
+
+
+
+
+	.content {
+    width: var(--content);
+    margin: auto;
+    background: white;
+    padding: 10px;
+    top: 4.999em;
+    position: relative;
+     z-index: 5;
+     font-family: var(--baloo);
+		background: url(contentback.png);
+
+}
+
+
+
+#myVideo {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  zoom: 1.133;
+  z-index: -1;
+}
+
+
+	ul {
+  list-style: none; 
+  margin: 0;
+  padding-left: 0;
+}
+
+
+#menu:before {
+left: calc(90% + 28px);
+position: fixed;
+border-width: 6.5px;
+border-style: solid;
+border-color: transparent transparent #ffffffa6 transparent;
+content: "";
+top: 1.4em;
+}
+
+#menu {
+	    z-index: 5;
+}
+#menu li {
+    display: inline-block;
+}
+
+
+#menu ul {
+width: 88px;
+background: #ffffff70;
+margin: 0;
+padding: .33em;
+font-family: var(--beb);
+top: 2.2em;
+position: fixed;
+left: calc(87% + 29px);
+height: 20px;
+text-align: center;
+}
+
+
+#menu a {
+
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+
+#menu li a:hover {
+
+	position: relative;
+	top:-2.5px;
+
+}
+
+
+
+
+
+
+
+
+
+#menu li:hover:nth-child(1) a {
+    color: var(--dvl);
+}
+#menu li:hover:nth-child(2) a {
+    color: var(--zel);
+}
+#menu li:hover:nth-child(3) a {
+    color: yellow;
+}
+
+
+#menu li:hover:nth-child(4) a {
+        color: var(--ciel);
+}
+
+
+
+
+/*
+#menu li:hover:nth-child(1) a:after {
+    content: "Anime";
+    position: fixed;
+    font-size: 13px;
+    color: var(--dvl);
+    top: 4.9em !important;
+    text-indent: -1.8em;
+}
+
+
+
+
+#menu li:hover:nth-child(2) a:after {
+    content: "Manga";
+    position: fixed;
+    font-size: 13px;
+    color: var(--zel);
+    top: 4.9em !important;
+}
+
+
+#menu li:hover:nth-child(3) a:after {
+    content: "Read";
+    position: fixed;
+    font-family: var(--beb);
+    font-size: 13px;
+    color: yellow;
+    top: 4.9em !important;
+}
+
+
+
+
+#menu li:hover:nth-child(4) a:after {
+    content: "AMV";
+    position: fixed;
+    font-size: 13px;
+    color: var(--ciel);
+    top: 4.9em !important;
+}
+
+*/
+
+
+.kontent {
+width: 820px;
+margin: 0 auto;
+}
+
+
+
+.button {
+    border: 0;
+    background: transparent;
+    color: var(--w);
+    left: calc(94% + 50px);
+    position: fixed;
+    top: 1em;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+@keyframes op {
+
+	0%{
+		opacity: 0;
+
+	}
+
+	30% {
+		opacity: 1;
+	}
+	
+
+	50% {
+		opacity: 0;
+	}
+	
+
+	70% {
+		opacity: 1;
+	
+	}
+
+	100% {
+		opacity: 0;
+	}
+}
+
+
+
+.nav.btn-danger.btn-lg.vnm-confetti-button {
+    font-size: 16px;
+    background: transparent;
+    border: 0;
+    color: white;
+    outline: none;
+    position: fixed;
+    left: calc(86% + 76px);
+    cursor: pointer;
+}
+
+
+
+/*logo*/
+
+
+
+
+#tl:after {
+    content: "";
+    border-width: 6.5px;
+    border-style: solid;
+    border-color: #000000a6 transparent #ffffff00 transparent;
+    top: 1.6em;
+    position: absolute;
+    left: 7em;
+}
+
+
+@keyframes fly {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(12px);
+    }
+}
+
+
+
+#tl {
+    height: 20px;
+    color: white;
+    background: #00000091;
+    padding: 2px 2px 3px 7px;
+    animation: fly 3s ease-in-out infinite;
+    border-radius: 4px;
+    text-align: center;
+    width: 239px;
+    top: -6.5rem;
+    position: relative;
+    margin: 0 auto;
+    display: block;
+    left: .3em;
+}
+
+.logo {
+    background: url(smoke.png) no-repeat;
+    width: 45px;
+    height: 50px;
+    position: relative;
+    background-size: 100%;
+    margin: auto;
+    top:5em;
+
+}
+
+
+.logo:hover {
+    width: 53px;
+    height: 50px;
+    background: url(smoke.gif) no-repeat;
+}
+
+
+
+/*button*/
+
+.vnm-confetti-button {
+	position:								relative;
+}
+
+.vnm-confetti {
+	position:								absolute;
+	top:										50%;
+	left:										50%;
+	width:									0;
+	height:									0;
+	z-index: 								-1;	\
+	pointer-events:						none;	
+}
+
+.vnm-confetti .confetto {
+	position:								absolute;
+	width:									0.250rem;
+	height:									0.250rem;
+}
+
+/* HERE BE DRAGONS */
+
+.vnm-confetti .confetto:not(.only-hover),
+.vnm-confetti-button:hover .vnm-confetti .confetto.only-hover {
+	display:									block;
+	-webkit-animation:					reset 1s ease-out infinite;	/* Note that this duration is overridden by the inline duration set by the plugin */
+	animation:								reset 1s ease-out infinite;
+	-webkit-animation-name:				reset, fade;
+	animation-name:						reset, fade;
+}
+
+.vnm-confetti-button .vnm-confetti .confetto.only-hover {
+	display:									none;
+}
+
+@-webkit-keyframes reset {
+	0% { transform: translate(0, 0); }
+}
+
+@keyframes reset {
+	0% { transform: translate(0, 0); }
+}
+
+@-webkit-keyframes fade { to { opacity: 0 } }
+@keyframes fade { to { opacity: 0 } }
+
+
+
+
+
+
+
+
+.avm {
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+}
+
+
+
+iframe {
+    width: 223px;
+    height: 140px;
+}
+.c1 { grid-area: 1 / 1 / 2 / 2; }
+.c2  { grid-area: 1 / 2 / 2 / 3; }
+.c3  { grid-area: 1 / 3 / 2 / 4; }
+.c4 { grid-area: 2 / 1 / 3 / 2; }
+.c5  { grid-area: 2 / 2 / 3 / 3; }
+.c6 { grid-area: 2 / 3 / 3 / 4; }
+.c7 { grid-area: 3 / 1 / 4 / 2; }
+.c8 { grid-area: 3 / 2 / 4 / 3; }
+.c9 { grid-area: 3 / 3 / 4 / 4; }
+.c10{ grid-area: 4 / 1 / 5 / 2; }
+.c11  { grid-area: 4 / 2 / 5 / 3; }
+.c12 { grid-area: 4 / 3 / 5 / 4; }
+.c13  { grid-area: 5 / 1 / 6 / 2; }
+.c14  { grid-area: 5 / 2 / 6 / 3; }
+.c15 { grid-area: 5 / 3 / 6 / 4; }
+
+
+
+
+
+
+
+
+
+.avm img {
+    border-radius: 5px;
+    filter: saturate(30%);
+    left: 0;
+    position: relative;
+    transition: all .8s;
+    margin-left: 3.5em;
+}
+
+
+.avm img:hover {
+    filter: saturate(100%);
+    transition: all .8s;
+}
+
+
+#footer {
+    background: url(footer_corners.png) no-repeat;
+    position: absolute;
+    width: 935px;
+    height: 171px;
+    left: -1.1em;
+    right: 0;
+    background-size: contain;
+    z-index: 11;
+    margin: 0 auto;
+    margin-top: -5.7rem;
+}
+
