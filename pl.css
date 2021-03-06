@@ -528,6 +528,10 @@ a.link.link-prev:before {
   object-fit: cover;
 }
 
+.la-collection .b-poster {
+    display: block;
+}
+ 
 .dname {
   position: absolute;
   background: #443a61eb;
