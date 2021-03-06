@@ -1,0 +1,533 @@
+/*----- MATERIALS ICONS ------*/
+
+
+.b-collection-filters .b-block_list li input[type="checkbox"]:before, .b-collection-filters .b-block_list li input[type="checkbox"]:checked:before,.b-collection-filters .b-block_list.orders li.selected::before, .b-collection-filters .b-block_list.orders li::before, .b-collection-filters .b-block_list li .b-question::before, a.link.link-next:before,a.link.link-prev:before, .item-sign:before,.item-add:before {
+ font-family: var(--mi);
+  }
+  
+
+ /*блок лист*/
+ 
+
+.b-block_list li{
+  padding: 0 0 2px 3px;
+}
+
+
+.b-block_list li.selected,.b-block_list li:hover {
+    background-color: #e5e5e561;
+    color: #123;
+    border-radius: .255rem;
+  padding: 0 0 2px 3px;
+}
+
+
+
+
+.item-add:before, .item-add:after {
+  
+    line-height: initial;
+  
+}
+  
+/*- Чэкбоксы -*/
+
+
+  .b-collection-filters .b-block_list li input[type="checkbox"] {
+    -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  color: #96bae8;
+}
+
+.b-collection-filters .b-block_list li input[type="checkbox"]:before {
+  content: 'check_box_outline_blank';
+  font-size: 16px;
+  vertical-align: middle;
+}
+
+.b-collection-filters .b-block_list li input[type="checkbox"]:checked:before {
+  content: 'check_box';
+  vertical-align: middle;
+  font-size: 16px;
+}
+
+.b-collection-filters .b-block_list.orders li.selected::before {
+  content: 'radio_button_checked';
+  color: #aad2ad;
+
+}
+
+
+.b-collection-filters .b-block_list.orders li::before,
+.b-collection-filters .b-block_list.orders li.selected::before  {
+  margin: 0 .75rem 0 0;
+  vertical-align: middle;
+  font-size: 15px;
+}
+
+
+.b-collection-filters .b-block_list.orders li::before {
+  content: 'radio_button_unchecked';
+  color: #96bae8;
+}
+
+
+
+/*помощь*/
+
+
+.b-collection-filters .b-block_list li .b-question::before {
+  content: 'help_outline';
+  height: auto;
+  margin: 0;
+  background: transparent;
+  color: #737373;
+  font-size: 13px;
+  width: 1rem;
+}
+
+.b-collection-filters .b-block_list li .b-question {
+  position: absolute;
+  right: 1.999rem;
+}
+
+.b-tooltipped.mobile {
+  cursor: help;
+}
+
+
+
+
+
+
+
+
+
+
+/* Оформление вкладок */
+
+
+.n-a-v {
+    width: min-content;
+    background: white;
+    height: 20px;
+    border: 1px solid black;
+    display: flex;
+    margin: 0 auto;
+    border-bottom: 0;
+}
+
+.nav_btn {
+    width: 20px;
+    background: transparent;
+    height: 12px;
+    display: block;
+    margin: 2pt 4pt 0pt 3pt;
+    cursor: pointer;
+    border-top: 2pt solid black;
+}
+
+.nav_btn:before {
+    content: " ";
+    width: 20px;
+    background: black;
+    height: 2px;
+    margin: 3px 3px 0;
+    position: absolute;
+}
+
+
+.nav_btn:after {
+    content: " ";
+    width: 20px;
+    background: black;
+    height: 2px;
+    display: block;
+    margin: 6pt 0 0;
+    position: absolute;
+}
+
+
+
+
+.nav_btn:hover:before {
+    margin: 3px 0 0;
+}
+
+.nav_btn.active:before {
+    background: indianred;
+    margin: 2px 0 0;
+}
+
+
+.kontent {
+    position: relative;
+    top: 15pt;
+}
+
+
+.c-orange .b-spoiler_block>span, .c-orange .b-spoiler_block.is-opened>span, .c-orange .b-spoiler_block>div {
+    border-radius: 0 !important;
+}
+
+.c-orange .b-spoiler_block.is-opened>span {
+    border-radius: 0 !important;
+}
+
+.c-orange .b-spoiler_block>span {
+    background: #fff4ee !important;
+    border-left: 4px solid #ffc48b !important;
+    border: 0;
+    border-radius: 0;
+
+}
+
+
+
+.c-orange .b-spoiler_block>span:after {
+    font-family: var(--mi);
+    content: "add";
+    color: #e8aa80;
+
+}
+
+
+
+
+.c-orange .b-spoiler_block.is-opened>span:after {
+    
+    font-family: var(--mi);
+    content:"remove";
+
+}
+
+
+.c-orange .b-spoiler_block>div { 
+
+    background: #fff4ee !important;
+    border-left: 4px solid #ffc48b !important;
+    border: 0; 
+    margin-top: 1pt;
+    
+
+    }
+
+    .c-orange .b-spoiler_block>span:hover {
+    background-color: #fdf4ee !important;
+}
+
+
+
+/*====*/
+
+
+.very-pale-blue .b-spoiler_block>span, .very-pale-blue .b-spoiler_block.is-opened>span, .very-pale-blue .b-spoiler_block>div {
+    border-radius: 0 !important;
+}
+
+.very-pale-blue .b-spoiler_block.is-opened>span {
+    border-radius: 0 !important;
+}
+
+.very-pale-blue .b-spoiler_block>span {
+    background: #e8e4ff !important;
+    border-left: 4px solid #a0a6f7 !important;
+    border: 0;
+    border-radius: 0;
+
+}
+
+
+
+.very-pale-blue .b-spoiler_block>span:after {
+    font-family: var(--mi);
+    content: "add";
+    color: #8c78f3;
+
+}
+
+
+
+
+.very-pale-blue .b-spoiler_block.is-opened>span:after {
+    
+    font-family: var(--mi);
+    content:"remove";
+
+}
+
+
+.very-pale-blue .b-spoiler_block>div { 
+    margin-top: 1px;
+    background: #e8e4ff !important;
+    border-left: 4px solid #a0a6f7 !important;
+    border: 0; 
+
+    }
+
+    .very-pale-blue .b-spoiler_block>span:hover {
+    background-color: #e8e4ff !important;
+}
+
+
+
+
+/*Постеры Аниме*/
+
+
+.rate_module>.c-column>strong {
+    position: absolute;
+    top: 8px;
+    padding: 6px 8px;
+    background: skyblue;
+    background: linear-gradient(90deg, rgba(135,208,238,1) 0%, rgb(89 174 132) 100%);
+    border-radius: 0 3px 3px 0;
+    color: white;
+    font-size: 14px;
+    line-height: 10px;
+    pointer-events: none;
+    font-family: var(--f2);
+    font-weight: 100;
+}
+
+.rate_module>.c-column:hover>strong {
+    background: skyblue!important;
+}
+
+.rate_module>.c-column>strong::before {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 0;
+  border: 6px solid transparent;
+  border-top-color: inherit;
+  border-left-width: 8px;
+  border-right-width: 4px;
+  filter: brightness(.6);
+  z-index: -1;
+}
+
+.rate_module>.c-column .c-column {
+  width: 100%;
+  margin: 0!important;
+}
+
+.rate_module>.c-column>.text {
+  position: absolute;
+  right: 0;
+  top: 80%;
+  bottom: 0;
+  left: 0;
+  padding: .5em;
+  background: rgba(0,0,0,.7);
+  font-size: 13px;
+  line-height: 1.3;
+  overflow: hidden;
+  transition: .2s ease;
+  z-index: 9;
+}
+
+.rate_module>.c-column>.d-cutted_covers~.text {
+  top: 68%;
+  bottom: 15.1%;
+}
+
+.rate_module>.c-column>.d-cutted_covers~.text.twolined {
+  top: 62.8%;
+  bottom: 22.3%;
+}
+
+.rate_module>.c-column>.text.active,.rate_module>.c-column:hover>.text {
+  top: 0!important;
+  background: rgba(0,0,0,.9);
+  overflow: auto;
+}
+
+.rate_module>.c-column>.text.active~strong,.rate_module>.c-column:hover>.text~strong {
+  opacity: 0;
+}
+
+.rate_module>.c-column>.text::-webkit-scrollbar {
+  width: 6px;
+}
+
+.rate_module>.c-column>.text::-webkit-scrollbar-thumb {
+  background-color: var(--color-primary,#333);
+}
+
+.rate_module>.c-column .b-poster,.rate_module>.c-column .b-image {
+  vertical-align: top;
+  margin: 0;
+}
+
+
+
+/*кнопки рекомандации\ блок лист*/
+
+.b-list li:before {
+   display:none;
+}
+
+.b-list {
+    margin-left: 17px;
+    margin-top: 1.5rem;
+}
+
+ul.b-block_list.statuses.anime-params,ul.b-block_list.kinds.anime-params,ul.b-block_list.orders.anime-params.subcontent {
+   margin-top: 1rem;
+}
+
+
+
+/* центрирование заголовок на страницах аниме манга ранобэ*/
+
+
+
+/* пагинация*/
+
+
+a.link.link-prev, a.link.link-next {
+    font-size: 0;
+}
+
+a.link.link-next:before, a.link.link-prev:before {
+    font-size: 24px;
+    background: #c5c5c55c;
+    border-radius: 100px;
+    color: #717171;
+}
+
+a.link.link-next:before {
+    content: "keyboard_arrow_right";
+}
+
+
+
+a.link.link-prev:before {
+    content: "keyboard_arrow_left";
+}
+
+
+.p-animes_collection-index .pagination .no-hover, .p-mangas_collection-index .pagination .no-hover, .p-recommendations-index .pagination .no-hover, .p-userlist_comparer-show .pagination .no-hover {
+    font-size: 14px;
+    vertical-align: 5px;
+    margin-top: 2em;
+    margin-bottom: 4em;
+}
+
+
+/*галочка в списке*/
+
+.item-sign:before {
+    content: "done_all";
+    font-size: 20px;
+}
+
+/*плюс*/
+
+
+.item-add:before {
+    content: "add";
+    vertical-align: middle;
+}
+
+
+
+/*ТОПИК*/
+
+.b-hot_topics-v2 {
+     background-color: #fdfbe4;
+    border-bottom: 1px solid #fdfbe4;
+   background-image: var(--pik);
+     margin-top: -10px;
+}
+
+
+
+/*красная линия*/
+
+.kra {
+ border-left: 8px solid hsl(0,75%,79.6%);
+    padding-left: 10px;
+}
+
+/*желтая линия*/
+
+.jel {
+ border-left: 8px solid hsl(49,83.1%,76.9%);
+    padding-left: 10px;
+}
+
+
+/*зеленая линия*/
+.zel {
+ border-left: 8px solid hsl(70.4,71.4%,79.4%);
+    padding-left: 10px;
+}
+
+
+/*голубая линия*/
+.gol {
+ border-left: 8px solid hsl(190.4,71.4%,79.4%);
+    padding-left: 10px;
+}
+
+.gol, .zel, .jel, .kra {
+
+font-family: 'Open Sans';
+}
+
+/*===*/
+.p-profiles .profile-head .c-info .c-additionals div:after{ visibility: hidden;}
+
+
+
+
+/*===*/
+
+.mes-collection {
+  width: 100%;
+  max-width: 1200px;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+.la-collection {
+    width: 100%;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 2px 6px 25px rgb(0 0 0 / 10%);
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    max-height: 250px;
+}
+
+
+
+
+.la-collection .b-image.b-poster img {
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.dname {
+    position: absolute;
+    background: #443a61eb;
+    color: white;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    height: 45px;
+    padding: 5px;
+    font-weight: 800;
+    font-family: var(--f9);
+    font-size: 20px;
+}
