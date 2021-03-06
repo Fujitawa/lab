@@ -8,7 +8,7 @@
 
  /*блок лист*/
  
- 
+
 .b-block_list li{
   padding: 0 0 2px 3px;
 }
@@ -101,30 +101,7 @@
 
 
 
-/* Видео*/
 
-.col {
-    display: grid;
-    grid-template-columns: repeat(9, auto);
-    grid-template-rows: auto;
-    grid-column-gap: 2px;
-    grid-row-gap: 2px;
-}
-
-
-@media (max-width: 768px) {
-  .col {
-        grid-template-columns: repeat(4, auto);
-
-  }
-}
-
-
-@media (min-width: 768px) and (max-width: 1024px) {
-  .col{
-   grid-template-columns: repeat(6, auto);
-  }
-}
 
 
 
