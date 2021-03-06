@@ -457,9 +457,8 @@ a.link.link-prev:before {
 .b-hot_topics-v2 {
   background-color: #fdfbe4;
   border-bottom: 1px solid #fdfbe4;
-  background-image: var(--pik);
-  margin-top: -10px;
 }
+
 
 /*красная линия*/
 
