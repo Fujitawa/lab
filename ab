@@ -1,0 +1,46 @@
+[spoiler=Как сделать рандомную аву или фон при каждом обновлении страницы?]
+
+> 1. Заходим на [url=https://randart.ru/]randart.ru[/url], регистрируемся через шикимори.
+> 2. Кликаем в меню на файлы.
+> 3. Создаем папку.
+> 4. Заходим в эту папку.
+> 5. Выбираем изображении.
+> 6. После того как загрузили нажимаем на крестик (выходим).
+> 7. Затем обратно нажимаем на кнопку файлы.
+> 8. Кликаем один раз по папке (выделяем), затем нажимаем на плюс.
+> 9. Затем введите имя списка и добавляем.
+> 10. Затем переходим во вкладку мои списки и копируем ссылку.
+> 11. Затем ставим его в код.
+
+[div=very-pale-blue][spoiler=Код для авы][code] .p-profiles .profile-head .c-brief .avatar img {
+    opacity: 0;
+}
+
+
+.p-profiles .profile-head .c-brief .avatar:before {
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    background: url(вставьте сюда ссылку);
+    z-index: 999;
+    content: "";
+    background-size: cover;
+    border-radius: 2pt;
+} [/code][/spoiler][/div]
+[div=c-orange][spoiler=Код для фона]
+
+[code]
+
+/* 1124px = означает что код будет работать  начиная c 1124px (разрешения экрана). (вы можете его изменить и подстроить под ваш дизайн) */
+
+@media (min-width:1124px)  {
+  
+body {
+   background:  url("https://randart.ru/art/Reily/bg/") fixed;
+   background-size:cover;
+   background-repeat: no-repeat;
+}
+
+}
+[/code]
+[/spoiler]
