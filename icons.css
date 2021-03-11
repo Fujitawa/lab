@@ -1,0 +1,282 @@
+@media all  {
+  
+/* ИКОНКИ */
+
+.l-top_menu-v2 .icon-profile:before,
+.l-top_menu-v2 .icon-anime:before,
+.l-top_menu-v2 .icon-manga:before,
+.l-top_menu-v2 .icon-ranobe:before,
+.l-top_menu-v2 .icon-forum:before,
+.l-top_menu-v2 .icon-clubs:before,
+.l-top_menu-v2 .icon-collections:before,
+.l-top_menu-v2 .icon-reviews:before,
+.l-top_menu-v2 .icon-articles:before,
+.l-top_menu-v2 .icon-users:before,
+.l-top_menu-v2 .icon-contests:before,
+.l-top_menu-v2 .icon-calendar:before,
+.l-top_menu-v2 .icon-info:before,
+.l-top_menu-v2 .icon-socials:before,
+.l-top_menu-v2 .icon-moderation:before,
+.l-top_menu-v2 .icon-anime_list:before,
+.l-top_menu-v2 .icon-manga_list:before,
+.l-top_menu-v2 .icon-mail:before,
+.l-top_menu-v2 .icon-achievements:before,
+.l-top_menu-v2 .icon-settings:before,
+.l-top_menu-v2 .icon-site_rules:before,
+.l-top_menu-v2 .icon-faq:before,
+.l-top_menu-v2 .icon-sign_out:before,
+.profile-actions .mail:before,
+.profile-actions .settings:before,
+.profile-actions .ban:before,
+.l-top_menu-v2 .menu-icon.forum:before,
+.l-top_menu-v2 .menu-icon.contest:before,
+.l-top_menu-v2 .menu-icon.mail:before,
+.profile-actions .talk:before,
+.profile-actions .fav-add:before,
+.profile-actions .fav-remove:before,
+.profile-actions .ignore-add:before,
+.profile-actions .ignore-remove:before,
+.b-subposter-action.new_comment:before,
+.b-subposter-action.fav-add:before,
+.b-subposter-action.fav-remove:before,
+.b-subposter-action.edit:before,
+.buttons .item-edit:before,
+.buttons .item-delete:before,
+.buttons .item-reply:before {
+        font-family: "reily";
+}
+
+/*МЕНЮ*/
+
+/*= = = размер - аниме, манга, ранобэ,*/
+.l-top_menu-v2 .icon-anime:before,
+.l-top_menu-v2 .icon-manga:before,
+.l-top_menu-v2 .icon-ranobe:before {
+        font-size: 18px;
+}
+
+/* профиль */
+.l-top_menu-v2 .icon-profile:before {
+        content: "\e9ba";
+}
+
+/* аниме */
+
+.l-top_menu-v2 .icon-anime:before,
+.l-top_menu-v2 .icon-anime_list:before {
+        content: "\e8a8";
+}
+
+/* манга */
+
+.l-top_menu-v2 .icon-manga:before,
+.l-top_menu-v2 .icon-manga_list:before {
+        content: "\eb64";
+}
+
+/* ранобэ */
+
+.l-top_menu-v2 .icon-ranobe:before {
+        content: "\e8aa";
+}
+
+/* форум */
+
+.l-top_menu-v2 .icon-forum:before,
+.l-top_menu-v2 .menu-icon.forum:before {
+        content: "\eb0f";
+}
+
+/* клубы */
+
+.l-top_menu-v2 .icon-clubs:before {
+        content: "\e970";
+}
+
+/* коллекции */
+
+.l-top_menu-v2 .icon-collections:before {
+        content: "\e9ca";
+}
+
+/* рецензии */
+
+.l-top_menu-v2 .icon-reviews:before {
+        content: "\eb0d";
+}
+
+/* статьи */
+
+.l-top_menu-v2 .icon-articles:before {
+        content: "\f1ea";
+}
+
+/* клубы */
+.l-top_menu-v2 .icon-users:before {
+        content: "\e9bc";
+}
+
+/* турниры */
+
+.l-top_menu-v2 .icon-contests:before,
+.l-top_menu-v2 .menu-icon.contest:before {
+        content: "\e892";
+}
+
+/* календарь */
+
+.l-top_menu-v2 .icon-calendar:before {
+        content: "\eb2c";
+}
+
+/* о нас */
+
+.l-top_menu-v2 .icon-info:before {
+        content: "\e9df";
+}
+
+/* мы в соц сетях */
+
+.l-top_menu-v2 .icon-socials:before {
+        content: "\eb2b";
+}
+
+/* модерация */
+
+.l-top_menu-v2 .icon-moderation:before {
+        content: "\e9f4";
+}
+
+/* почта */
+
+.l-top_menu-v2 .icon-mail:before,
+.l-top_menu-v2 .menu-icon.mail:before {
+        content: "\e816";
+}
+
+/* достижения */
+
+.l-top_menu-v2 .icon-achievements:before {
+        content: "\eb56";
+}
+
+/* настройки */
+
+.l-top_menu-v2 .icon-settings:before {
+        content: "\ea2b";
+}
+
+/* правила сайта */
+
+.l-top_menu-v2 .icon-site_rules:before {
+        content: "\ec10";
+}
+
+/* FAQ */
+
+.l-top_menu-v2 .icon-faq:before {
+        content: "\f29c";
+}
+
+/* выход */
+
+.l-top_menu-v2 .icon-sign_out:before {
+        content: "\f02d";
+}
+
+/* иконки профиля */
+
+/* бан */
+
+.profile-actions .ban:before {
+        content: "\f11d";
+}
+
+/* настройки */
+.profile-actions .settings:before {
+        content: "\e918";
+}
+
+/* почта */
+
+.profile-actions .mail:before {
+        content: "\e816";
+}
+
+/* добавить в друзья */
+
+.profile-actions .fav-add:before {
+        content: "\e9be";
+}
+
+/* написать сообщение */
+
+.profile-actions .talk:before {
+        content: "\f1d9";
+}
+
+/* удалить из друзей */
+
+.profile-actions .fav-remove:before {
+        content: "\e9c0";
+}
+
+/* убрать из игнора */
+
+.profile-actions .ignore-remove:before {
+        content: "\ed25";
+}
+
+/* добавить в игнор */
+
+.profile-actions .ignore-add:before {
+        content: "\ed26";
+}
+
+/* на аниме манга страницах */
+
+/* комментировать */
+
+.b-subposter-action.new_comment:before {
+        content: "\eb10";
+}
+
+/* добавить в избранное */
+
+.b-subposter-action.fav-add:before {
+        content: "\e817";
+}
+
+/* удалить из избранного */
+
+.b-subposter-action.fav-remove:before {
+        content: "\f028";
+}
+
+/* редактировать */
+
+.b-subposter-action.edit:before {
+        content: "\eb0d";
+}
+
+/* иконки в комментариях */
+
+/* удалить */
+
+.buttons .item-delete:before {
+        content: "\ed48";
+}
+
+/* редактировать */
+
+.buttons .item-edit:before {
+        content: "\ed36";
+}
+
+/* ответить */
+
+.buttons .item-reply:before {
+        content: "\ee46";
+}
+
+}
