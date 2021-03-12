@@ -1,0 +1,109 @@
+@import url(http://eoel.gq/icons.css);
+@import url(http://eoel.gq/Icons/css/reily-embedded.css);
+
+
+
+:root {
+--bg:white;
+--link-color: hsl(248deg 31% 44%);
+--link-hover-color: hsl(56deg 94% 28%);
+--link-active-color: hsl(337deg 91% 35%);
+
+}
+
+body {
+ background:var(--bg);
+}
+
+/* меню */
+
+
+
+ /* скрываем некоторые ссылки в меню*/
+
+a.icon-forum,
+a.icon-contests,
+a.icon-info,
+a.icon-socials,
+a.icon-socials,
+a.icon-clubs,
+a.icon-anime_list,
+a.icon-manga_list,
+.l-top_menu-v2 .menu-icon.mail,
+a.icon-moderation,
+.l-top_menu-v2 .submenu > .legend {
+    display: none !important;
+}
+
+
+/* профиль */
+
+.profile-actions .fav-remove:before,
+.profile-actions .ignore-remove:before,
+.profile-actions .ignore-add:before,
+.profile-actions .fav-add:before,
+.profile-actions .talk:before,
+.profile-actions .ban:before,
+.profile-actions .settings:before,
+.profile-actions .mail:before {
+
+    margin: 0 !important;
+}
+
+
+
+
+.profile-actions .ban:before,
+.profile-actions .settings:before,
+.profile-actions .mail:before,
+.profile-actions .fav-add:before,
+.profile-actions .talk:before,
+.profile-actions .fav-remove:before,
+.profile-actions .ignore-remove:before,
+.profile-actions .ignore-add:before {
+    font-size: 18px;
+}
+
+@media all {
+    .profile-actions .ban,
+    .profile-actions .settings,
+    .profile-actions .mail,
+    .profile-actions .fav-add,
+    .profile-actions .talk,
+    .profile-actions .fav-remove,
+    .profile-actions .ignore-remove,
+    .profile-actions .ignore-add {
+        margin: 0 !important;
+    }
+
+    .p-profiles .profile-head .c-brief .avatar .profile-actions {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(0px, 28px));
+        grid-auto-flow: column;
+        justify-content: center;
+        gap: 3px;
+    }
+
+  
+}
+
+
+/* блоки */
+
+.c-column.c-left {
+    display: none;
+}
+
+.p-profiles-show .profile-content .cc-2 > .c-right .cc-2a > .c-column {
+    width: 100%;
+}
+
+    
+.p-profiles-show .profile-content .c-right .cc-2a {
+    line-height: 1.65;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 8px;
+}
