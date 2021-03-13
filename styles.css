@@ -64,13 +64,14 @@ h3 {
 .avatar {
     width: 200px;
     height: 250px;
+    overflow: hidden;
+    border-radius: 4pt 4pt 0 0;
 }
 
 .avatar img {
     width: 100%;
     object-fit: cover;
     height: 100%;
-    border-radius: 4pt 4pt 0 0;
 }
 
 .left, .right {
