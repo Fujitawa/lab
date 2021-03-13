@@ -188,6 +188,10 @@ color: #93b3d6;
     align-items: center;
 }
 
+i.icn-icon.icon-history {
+    cursor: help;
+}
+
 
 
 
