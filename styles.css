@@ -37,8 +37,13 @@ h3 {
     margin-block-end: .3em;
 }
 
+.profil {
+    order: 3;
+}
+
 .notice, .history,.tabcontent {
     background: var(--col);
+    order:1;
 }
 
 
@@ -87,6 +92,7 @@ h3 {
     background: var(--social);
     border-radius: 0 0 4pt 3pt;
     text-align: center;
+    order:3;
 }
 
 .social>a {
@@ -119,10 +125,10 @@ color: #93b3d6;
 .notice {
     text-align: center;
     border: 1px solid var(--pl);
-    margin-top: 1em;
     border-radius: 4pt;
     display: grid;
     grid-auto-flow: row;
+    order:4;
 }
 
 .notice:before {
@@ -326,7 +332,6 @@ color: #93b3d6;
     overflow: hidden;
     border: 1px solid var(--pl);
     background: var(--col);
-    margin-top: 1em;
     display: grid;
     grid-auto-flow: column;
     border-radius: 4pt 4pt 0 0;
