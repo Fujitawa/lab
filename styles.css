@@ -143,6 +143,10 @@ span.status {
         padding: 1.3pt;
 }
 
+span.nickname {
+    font-weight: bold;
+}
+
 .link img {
         width: 30px;
         height: 30px;
