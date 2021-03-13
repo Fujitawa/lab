@@ -57,6 +57,7 @@ h3 {
         display: grid;
         grid-template-columns: 200px 800px;
         gap: 1em;
+        align-items: start
 }
 
 .avatar {
