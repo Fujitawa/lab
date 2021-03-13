@@ -116,11 +116,12 @@ h3 {
 
 .notice {
         text-align: center;
-        border-radius: 4pt;
+        border-radius: 2pt;
         display: grid;
         grid-auto-flow: row;
         order: 3;
         gap: 1px;
+        overflow:hidden;
 }
 
 .notice:before {
