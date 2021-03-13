@@ -178,6 +178,7 @@ span.nickname {
     align-items: center;
     background: var(--second-light);
     border-radius: 3pt 0 0 0;
+    text-align:center;
 }
 
 i.icn-icon.icon-history {
