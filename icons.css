@@ -42,7 +42,8 @@
 .b-subposter-action.edit:before,
 .buttons .item-edit:before,
 .buttons .item-delete:before,
-.buttons .item-reply:before {
+.buttons .item-reply:before,
+.l-top_menu-v2 .menu-icon.trigger:before {
         font-family: "reily";
 }
 
@@ -279,4 +280,11 @@
         content: "\ee46";
 }
 
-}
+
+  
+/*= = = */
+  
+ /* кнопка меню в моб версии */
+  
+  .l-top_menu-v2 .menu-icon.trigger:before { content: '\f00b'; background: none; }
+
