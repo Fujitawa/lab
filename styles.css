@@ -146,6 +146,7 @@ color: #93b3d6;
 
 span.nickname, span.status {
     background: var(--second);
+    padding:1.3pt;
 }
 
 .link img {
