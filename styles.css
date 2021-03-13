@@ -38,7 +38,7 @@ h3 {
 }
 
 .profil {
-    order: 3;
+    order: 2;
 }
 
 .notice, .history,.tabcontent {
@@ -131,7 +131,7 @@ color: #93b3d6;
     border-radius: 4pt;
     display: grid;
     grid-auto-flow: row;
-    order:4;
+    order:3;
 }
 
 .notice:before {
@@ -160,6 +160,7 @@ color: #93b3d6;
     border: 1px solid var(--pl);
     padding: 3px;
     border-radius: 3pt;
+    order:1;
 }
 
 
