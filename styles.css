@@ -3,8 +3,8 @@
 :root {
 --bg-color: #f9f9f9;
 --link: #67827a;
---social: #eceaea;
---social-hover: #d6d6d6;
+--second: #eceaea;
+--second-hover: #d6d6d6;
 --pl: #a2a2a229;
 --main-color: #65666b;
 --link-hover: #b38d38;
@@ -41,7 +41,7 @@ h3 {
     order: 2;
 }
 
-.notice, .history,.tabcontent {
+ .history,.tabcontent {
     background: var(--col);
 }
 
@@ -91,7 +91,7 @@ h3 {
 .social {
     display: grid;
     grid-template-columns: 100px 100px;
-    background: var(--social);
+    background: var(--second);
     border-radius: 0 0 4pt 3pt;
     text-align: center;
     order:3;
@@ -102,7 +102,7 @@ h3 {
     transition: .6s;
 }
 .social>a:hover {
-    background: var(--social-hover);
+    background: var(--second-hover);
 }
 
 .social>a:nth-child(1){
@@ -126,11 +126,11 @@ color: #93b3d6;
 
 .notice {
     text-align: center;
-    border: 1px solid var(--pl);
     border-radius: 4pt;
     display: grid;
     grid-auto-flow: row;
     order:3;
+    gap:1px;
 }
 
 .notice:before {
@@ -142,6 +142,10 @@ color: #93b3d6;
     font-size: 10px;
     padding: 2px;
     color: green;
+}
+
+span.nickname, span.status {
+    background: var(--second);
 }
 
 .link img {
