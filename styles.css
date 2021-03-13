@@ -370,6 +370,7 @@ color: #93b3d6;
     width: 100px;
     border-radius: 3pt;
     height: 140px;
+    object-fit: cover;
 }
 
 .favorite {
