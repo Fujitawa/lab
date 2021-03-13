@@ -162,7 +162,6 @@ span.nickname {
 }
 
 .history {
-    overflow: hidden;
     display: grid;
     grid-auto-flow: column;
     border-radius: 2px;
