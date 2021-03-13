@@ -60,6 +60,10 @@ h3 {
         align-items: start
 }
 
+.left {
+    z-index: 1;
+}
+
 .avatar {
         width: 200px;
         height: 250px;
@@ -79,6 +83,7 @@ h3 {
     gap: 1px;
     position: fixed;
 }
+
 
 .social {
     display: grid;
