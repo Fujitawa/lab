@@ -159,12 +159,12 @@ span.nickname {
 .link, .icon {
     padding: 2pt;
     background: var(--second-light);
+    border: 1px solid #ececec;
 }
 
 .history {
     display: grid;
     grid-auto-flow: column;
-    border-radius: 2px;
     order: 1;
     gap: 1px;
 }
