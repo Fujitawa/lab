@@ -16,7 +16,7 @@
 
 body {
     background: var(--bg-color);
-    font-family: Helvetica, sans-serif;;
+    font-family: 'Nunito', sans-serif;
     color: var(--main-color);
     text-rendering: geometricPrecision;
 }
