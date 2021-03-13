@@ -5,7 +5,7 @@
 --link: #67827a;
 --social: #eceaea;
 --social-hover: #d6d6d6;
---pl: #00000024;
+--pl: #a2a2a229;
 --main-color: #65666b;
 --link-hover: #b38d38;
 --col: white;
@@ -69,7 +69,6 @@ h3 {
     height: 250px;
     overflow: hidden;
     border-radius: 4pt 4pt 0 0;
-    border: 1px solid var(--pl);
     border-bottom: 0;
 }
 
