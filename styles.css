@@ -63,7 +63,6 @@ h3 {
         width: 200px;
         height: 250px;
         overflow: hidden;
-        border-radius: 4pt 4pt 0 0;
         border-bottom: 0;
 }
 
@@ -74,7 +73,7 @@ h3 {
 }
 
 .left {
-        gap: 1em;
+        gap: 1px;
 }
 
 .left,
@@ -195,7 +194,7 @@ span.nickname {
     display: inline-grid;
     align-items: center;
     background: var(--second-light);
-    border-radius: 3pt 0 0 3pt;
+    border-radius: 3pt 0 0 0;
 }
 
 i.icn-icon.icon-history {
