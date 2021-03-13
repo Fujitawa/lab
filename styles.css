@@ -156,35 +156,48 @@ span.nickname {
         text-align: center;
 }
 
-.history {
-        background: var(--second-light);
-        display: grid;
-        grid-auto-flow: column;
-        padding: 3px;
-        border-radius: 3pt;
-        order: 1;
+.link, .icon {
+    padding: 2pt;
+    background: var(--second-light);
 }
 
-.link {
-        font-size: 11px;
-        display: grid;
-        align-items: center;
-        text-align: center;
-        position: relative;
-        grid-auto-flow: column;
+.history {
+    overflow: hidden;
+    display: grid;
+    grid-auto-flow: column;
+    border-radius: 2px;
+    order: 1;
+    gap: 1px;
 }
+
 
 .link:before {
-        right: 0;
-        content: "прочитано";
-        position: absolute;
-        font-size: 9px;
-        bottom: 0;
+    right: .999em;
+    content: "прочитано";
+    position: absolute;
+    font-size: 9px;
+    bottom: 0;
 }
 
+
+
+.link {
+    font-size: 11px;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    grid-auto-flow: column;
+    background: var(--second-light);
+    border-radius: 0 3pt 3pt 0;
+}
+
+
 .icon {
-        display: inline-grid;
-        align-items: center;
+    display: inline-grid;
+    align-items: center;
+    background: var(--second-light);
+    border-radius: 3pt 0 0 3pt;
 }
 
 i.icn-icon.icon-history {
