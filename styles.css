@@ -187,7 +187,6 @@ span.nickname {
     text-align: center;
     position: relative;
     grid-auto-flow: column;
-    background: var(--second-light);
     border-radius: 0 3pt 3pt 0;
 }
 
