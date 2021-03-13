@@ -1,5 +1,5 @@
 :root {
-        --bg-color: #f9f9f9;
+        --bg-color: #fafafa;
         --link: #67827a;
         --second: #eceaea;
         --second-hover: #d6d6d6;
@@ -8,6 +8,7 @@
         --link-hover: #b38d38;
         --col: white;
         --second-color:#b99898;
+        --second-light:#f3f3f3;
 }
 
 body {
@@ -37,7 +38,7 @@ h3 {
         order: 2;
 }
 
-.history,
+
 .tabcontent {
         background: var(--col);
 }
@@ -152,9 +153,9 @@ span.status {
 }
 
 .history {
+        background: var(--second-light);
         display: grid;
         grid-auto-flow: column;
-        border: 1px solid var(--pl);
         padding: 3px;
         border-radius: 3pt;
         order: 1;
