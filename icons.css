@@ -43,7 +43,8 @@
 .buttons .item-edit:before,
 .buttons .item-delete:before,
 .buttons .item-reply:before,
-.l-top_menu-v2 .menu-icon.trigger:before {
+.l-top_menu-v2 .menu-icon.trigger:before,
+.l-top_menu-v2 .global-search .search-marker:before {
         font-family: "reily";
 }
 
@@ -288,3 +289,11 @@
   
   .l-top_menu-v2 .menu-icon.trigger:before { content: '\f00b'; background: none; }
 
+
+  
+  /* поиск */
+  
+  .l-top_menu-v2 .global-search .search-marker:before {
+    content: '\e815';
+    font-size: 16px;
+}
