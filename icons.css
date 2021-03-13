@@ -296,4 +296,5 @@
   .l-top_menu-v2 .global-search .search-marker:before {
     content: '\e815';
     font-size: 16px;
+    color: black;
 }
