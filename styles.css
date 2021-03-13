@@ -152,7 +152,6 @@ color: #93b3d6;
 }
 
 .history {
-    margin-top: 1em;
     display: grid;
     grid-auto-flow: column;
     border: 1px solid var(--pl);
