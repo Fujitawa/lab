@@ -11,42 +11,45 @@
   </head>
   <body>
  <div class="container">
-  <! - - - - БЛОК СЛЕВА - - - - - > 
+  <!-- - - - - БЛОК СЛЕВА - - - - - --> 
   <div class="left"> 
+    <div class="social"> <a href="https://mangalib.me/user/2669911"><span tooltip="Список Манги" flow="left"><span class="icn-icon icon-book"></span></span>  </a>
+<a href="https://vk.com/roixxv"><span tooltip="Моя страница" flow="right"><span class="icn-icon icon-vk"></span></span></a></div>
 
+    <span class="nickname">Reily </span>
 
-      <! - - - - ПРОФИЛЬ - - - - - > 
+      <!-- - - - - ПРОФИЛЬ - - - - - --> 
 
-  <div class="profil"> <div class="avatar"><div class="overlay"><img src="https://randart.ru/art/Reily/avatar-s/"width="150px"height="300px"></div></div><div class="social"> <a href="https://mangalib.me/user/2669911"><span tooltip="Список Манги" flow="left"><span class="icn-icon icon-book"></span></span>  </a>
-<a href="https://vk.com/roixxv"><span tooltip="Моя страница" flow="right"><span class="icn-icon icon-vk"></span></span></a></div></div>
+  <div class="profil"> <div class="avatar"><div class="overlay"><img src="https://randart.ru/art/Reily/avatar-s/" width="150px" height="300px"></div></div>
+
+</div>
 
     
-      <! - - - -  ИНФОРМАЦИЯ - - - - - > 
-
-<div class="notice"><span class="nickname">Reily </span> <span class="status"> My criminal experience is legendary ⚔️ </span></div>
 
 
-  <!  - - - - -  ИСТОРИЯ - - - - - - - >
+
+
+  <!--  - - - - -  ИСТОРИЯ - - - - - - - -->
 <div class="history"><div class="icon"><span tooltip="История" flow="left">  
 <i class="icn-icon icon-history"></i></span></div><div class="link"><a href="https://mangalib.me/zar-heat"><img src="https://desu.shikimori.one/system/mangas/original/3928.jpg?1574953132"></a><a href="https://mangalib.me/zar-heat"> Прожигающие жизнь</a></div></div>
 </div>
 
- <! - - - - -  БЛОК СПРАВА - - - - - - - >
+ <!-- - - - - -  БЛОК СПРАВА - - - - - - - -->
 
   <div class="right">
 
 
     <div class="tab">
-  <button class="tablinks" onclick="openCity(event, 'Anime')" id="defaultOpen">Аниме</button>
+  <button class="tablinks active" onclick="openCity(event, 'Anime')" id="defaultOpen">Аниме</button>
   <button class="tablinks" onclick="openCity(event, 'Manga')">Манга</button>
 </div>
 
 
-<! - - - - - - - - МАНГА СПИСОК - - - - -- >
+<!-- - - - - - - - - МАНГА СПИСОК - - - - -- -->
 
 
 
-<div id="Anime" class="tabcontent">
+<div id="Anime" class="tabcontent" style="display: block;">
   <div class="favorite"> 
  <span tooltip="Городской Охотник" flow="up"><a href="https://shikimori.one/animes/1474-city-hunter-ai-to-shukumei-no-magnum"><img src="https://dere.shikimori.one/system/animes/original/1474.jpg?1611134982"></a></span>
 
@@ -112,11 +115,11 @@
 </div>
 </div>
 
-<! - - - - - - - - АНИМЕ СПИСОК - - - - -- >
+<!-- - - - - - - - - АНИМЕ СПИСОК - - - - -- -->
 
 
 
-<div id="Manga" class="tabcontent">
+<div id="Manga" class="tabcontent" style="display: none;">
 <div class="favorite"> 
  <span tooltip="Прожигающие жизнь" flow="up"><a href="https://mangalib.me/zar-heat"><img src="https://desu.shikimori.one/system/mangas/original/3928.jpg?1574953132"></a></span>
 
@@ -163,6 +166,8 @@ function openCity(evt, cityName) {
 document.getElementById("defaultOpen").click();
 </script>
    
+
+
 
 
 </body>
