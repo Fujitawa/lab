@@ -118,7 +118,7 @@ h3 {
 
 .notice {
         text-align: center;
-        border-radius: 2pt;
+        border-radius: 3pt;
         display: grid;
         grid-auto-flow: row;
         order: 3;
