@@ -43,7 +43,6 @@ h3 {
 
 .notice, .history,.tabcontent {
     background: var(--col);
-    order:1;
 }
 
 
