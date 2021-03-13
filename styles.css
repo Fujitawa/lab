@@ -83,12 +83,12 @@ h3 {
 }
 
 .social {
-        display: grid;
-        grid-template-columns: 100px 100px;
-        background: var(--second);
-        border-radius: 0 0 4pt 3pt;
-        text-align: center;
-        order: 3;
+    display: grid;
+    grid-template-columns: 100px 100px;
+    background: var(--second);
+    border-radius: 0 0 4pt 3pt;
+    text-align: center;
+    order: 4;
 }
 
 .social > a {
@@ -115,36 +115,16 @@ h3 {
         color: #93b3d6;
 }
 
-.notice {
-        text-align: center;
-        border-radius: 3pt;
-        display: grid;
-        grid-auto-flow: row;
-        order: 3;
-        gap: 1px;
-        overflow:hidden;
-}
 
-.notice:before {
-        content: "INFO";
-        position: absolute;
-        margin-top: 0;
-        margin-left: 5px;
-        font-weight: bolder;
-        font-size: 10px;
-        padding: 2px;
-        color: green;
-}
-
-span.nickname,
-span.status {
-        background: var(--second);
-        padding: 1.3pt;
-}
 
 span.nickname {
     font-weight: bold;
+    order: 3;
+    text-align:center;
+    background: var(--second);
+    padding: 1.3pt;
 }
+
 
 .link img {
         width: 30px;
@@ -186,7 +166,7 @@ span.nickname {
     text-align: center;
     position: relative;
     grid-auto-flow: column;
-    border-radius: 0 3pt 3pt 0;
+    border-radius: 0 3pt 0 0;
 }
 
 
