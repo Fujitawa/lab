@@ -1,324 +1,308 @@
-
-
 :root {
---bg-color: #f9f9f9;
---link: #67827a;
---second: #eceaea;
---second-hover: #d6d6d6;
---pl: #a2a2a229;
---main-color: #65666b;
---link-hover: #b38d38;
---col: white;
---second: #a57b7b;
-
+        --bg-color: #f9f9f9;
+        --link: #67827a;
+        --second: #eceaea;
+        --second-hover: #d6d6d6;
+        --pl: #a2a2a229;
+        --main-color: #65666b;
+        --link-hover: #b38d38;
+        --col: white;
 }
 
-
 body {
-    background: var(--bg-color);
-    font-family: 'Nunito', sans-serif;
-    color: var(--main-color);
-    text-rendering: geometricPrecision;
+        background: var(--bg-color);
+        font-family: "Nunito", sans-serif;
+        color: var(--main-color);
+        text-rendering: geometricPrecision;
 }
 
 :focus {
-  outline: none;
+        outline: none;
 }
 
 a {
-  text-decoration: none;
-  color: var(--link);
+        text-decoration: none;
+        color: var(--link);
 }
 a:hover {
-    color: var(--link-hover);
+        color: var(--link-hover);
 }
 h3 {
-    margin-block-start: .3em;
-    margin-block-end: .3em;
+        margin-block-start: 0.3em;
+        margin-block-end: 0.3em;
 }
 
 .profil {
-    order: 2;
+        order: 2;
 }
 
- .history,.tabcontent {
-    background: var(--col);
+.history,
+.tabcontent {
+        background: var(--col);
 }
-
 
 .horizontal-line {
-    border-top: 1px solid var(--pl);
+        border-top: 1px solid var(--pl);
 }
 
 .vertical-line {
-    border-left: 1px solid var(--pl);
-
-
+        border-left: 1px solid var(--pl);
 }
 
 .container {
-    width: 1000px;
-    margin: 3em auto auto auto;
-    display: grid;
-    grid-template-columns: 200px 800px;
-    gap: 1em;
+        width: 1000px;
+        margin: 3em auto auto auto;
+        display: grid;
+        grid-template-columns: 200px 800px;
+        gap: 1em;
 }
 
 .avatar {
-    width: 200px;
-    height: 250px;
-    overflow: hidden;
-    border-radius: 4pt 4pt 0 0;
-    border-bottom: 0;
+        width: 200px;
+        height: 250px;
+        overflow: hidden;
+        border-radius: 4pt 4pt 0 0;
+        border-bottom: 0;
 }
 
 .avatar img {
-    width: 100%;
-    object-fit: cover;
-    height: 100%;
+        width: 100%;
+        object-fit: cover;
+        height: 100%;
 }
 
 .left {
-    gap: 1em;
+        gap: 1em;
 }
 
-.left, .right {
-    display: grid;
-    align-self: flex-start;
+.left,
+.right {
+        display: grid;
+        align-self: flex-start;
 }
-
 
 .social {
-    display: grid;
-    grid-template-columns: 100px 100px;
-    background: var(--second);
-    border-radius: 0 0 4pt 3pt;
-    text-align: center;
-    order:3;
+        display: grid;
+        grid-template-columns: 100px 100px;
+        background: var(--second);
+        border-radius: 0 0 4pt 3pt;
+        text-align: center;
+        order: 3;
 }
 
-.social>a {
-    padding: 4pt;
-    transition: .6s;
+.social > a {
+        padding: 4pt;
+        transition: 0.6s;
 }
-.social>a:hover {
-    background: var(--second-hover);
-}
-
-.social>a:nth-child(1){
-border-right:1px solid #00000024;
+.social > a:hover {
+        background: var(--second-hover);
 }
 
-.social>a:hover:nth-child(1){  
-border-radius: 0 0 0 3pt;
+.social > a:nth-child(1) {
+        border-right: 1px solid #00000024;
 }
 
-.social>a:hover:nth-child(2){  
-border-radius: 0 0 3pt 0;
+.social > a:hover:nth-child(1) {
+        border-radius: 0 0 0 3pt;
 }
 
-.social>a:nth-child(2){
-
-color: #93b3d6;
+.social > a:hover:nth-child(2) {
+        border-radius: 0 0 3pt 0;
 }
 
-
+.social > a:nth-child(2) {
+        color: #93b3d6;
+}
 
 .notice {
-    text-align: center;
-    border-radius: 4pt;
-    display: grid;
-    grid-auto-flow: row;
-    order:3;
-    gap:1px;
+        text-align: center;
+        border-radius: 4pt;
+        display: grid;
+        grid-auto-flow: row;
+        order: 3;
+        gap: 1px;
 }
 
 .notice:before {
-    content: 'INFO';
-    position: absolute;
-    margin-top: 0;
-    margin-left: 5px;
-    font-weight: bolder;
-    font-size: 10px;
-    padding: 2px;
-    color: green;
+        content: "INFO";
+        position: absolute;
+        margin-top: 0;
+        margin-left: 5px;
+        font-weight: bolder;
+        font-size: 10px;
+        padding: 2px;
+        color: green;
 }
 
-span.nickname, span.status {
-    background: var(--second);
-    padding:1.3pt;
+span.nickname,
+span.status {
+        background: var(--second);
+        padding: 1.3pt;
 }
 
 .link img {
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    object-fit: cover;
-    object-position: 0 0;
-    text-align: center;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        object-fit: cover;
+        object-position: 0 0;
+        text-align: center;
 }
 
 .history {
-    display: grid;
-    grid-auto-flow: column;
-    border: 1px solid var(--pl);
-    padding: 3px;
-    border-radius: 3pt;
-    order:1;
+        display: grid;
+        grid-auto-flow: column;
+        border: 1px solid var(--pl);
+        padding: 3px;
+        border-radius: 3pt;
+        order: 1;
 }
-
 
 .link {
-    font-size: 11px;
-    display: grid;
-    align-items: center;
-    text-align: center;
-    position: relative;
-    grid-auto-flow: column;
+        font-size: 11px;
+        display: grid;
+        align-items: center;
+        text-align: center;
+        position: relative;
+        grid-auto-flow: column;
 }
-
 
 .link:before {
-    right: 0;
-    content: 'прочитано';
-    position: absolute;
-    font-size: 9px;
-    bottom: 0;
+        right: 0;
+        content: "прочитано";
+        position: absolute;
+        font-size: 9px;
+        bottom: 0;
 }
 
-
 .icon {
-    display: inline-grid;
-    align-items: center;
+        display: inline-grid;
+        align-items: center;
 }
 
 i.icn-icon.icon-history {
-    cursor: help;
+        cursor: help;
 }
-
-
-
 
 /* ТУЛТИП */
 [tooltip] {
-  position: relative; 
+        position: relative;
 }
 
 [tooltip]::before,
 [tooltip]::after {
-  text-transform: none; /
-  font-size: .9em; 
-  line-height: 1;
-  user-select: none;
-  pointer-events: none;
-  position: absolute;
-  display: none;
-  opacity: 0;
+        text-transform: none;
+        /font-size: 0.9em;
+        line-height: 1;
+        user-select: none;
+        pointer-events: none;
+        position: absolute;
+        display: none;
+        opacity: 0;
 }
 [tooltip]::before {
-  content: '';
-  border: 5px solid transparent; 
-  z-index: 1001; 
+        content: "";
+        border: 5px solid transparent;
+        z-index: 1001;
 }
 [tooltip]::after {
-  content: attr(tooltip); 
-  font-family: Helvetica, sans-serif;
-  text-align: center;
-  
-  
-  min-width: 3em;
-  max-width: 21em;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  padding: 1ch 1.5ch;
-  border-radius: .3ch;
-  box-shadow: 0 1em 2em -.5em rgba(0, 0, 0, 0.35);
-  background: #333;
-  color: #fff;
-  z-index: 1000; 
+        content: attr(tooltip);
+        font-family: Helvetica, sans-serif;
+        text-align: center;
+
+        min-width: 3em;
+        max-width: 21em;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        padding: 1ch 1.5ch;
+        border-radius: 0.3ch;
+        box-shadow: 0 1em 2em -0.5em rgba(0, 0, 0, 0.35);
+        background: #333;
+        color: #fff;
+        z-index: 1000;
 }
 
 [tooltip]:hover::before,
 [tooltip]:hover::after {
-  display: block;
+        display: block;
 }
 
-[tooltip='']::before,
-[tooltip='']::after {
-  display: none !important;
+[tooltip=""]::before,
+[tooltip=""]::after {
+        display: none !important;
 }
 
 [tooltip]:not([flow])::before,
 [tooltip][flow^="up"]::before {
-  bottom: 100%;
-  border-bottom-width: 0;
-  border-top-color: #333;
+        bottom: 100%;
+        border-bottom-width: 0;
+        border-top-color: #333;
 }
 [tooltip]:not([flow])::after,
 [tooltip][flow^="up"]::after {
-  bottom: calc(100% + 5px);
+        bottom: calc(100% + 5px);
 }
 [tooltip]:not([flow])::before,
 [tooltip]:not([flow])::after,
 [tooltip][flow^="up"]::before,
 [tooltip][flow^="up"]::after {
-  left: 50%;
-  transform: translate(-50%, -.5em);
+        left: 50%;
+        transform: translate(-50%, -0.5em);
 }
 
 [tooltip][flow^="down"]::before {
-  top: 100%;
-  border-top-width: 0;
-  border-bottom-color: #333;
+        top: 100%;
+        border-top-width: 0;
+        border-bottom-color: #333;
 }
 [tooltip][flow^="down"]::after {
-  top: calc(100% + 5px);
+        top: calc(100% + 5px);
 }
 [tooltip][flow^="down"]::before,
 [tooltip][flow^="down"]::after {
-  left: 50%;
-  transform: translate(-50%, .5em);
+        left: 50%;
+        transform: translate(-50%, 0.5em);
 }
 
 [tooltip][flow^="left"]::before {
-  top: 50%;
-  border-right-width: 0;
-  border-left-color: #333;
-  left: calc(0em - 5px);
-  transform: translate(-.5em, -50%);
+        top: 50%;
+        border-right-width: 0;
+        border-left-color: #333;
+        left: calc(0em - 5px);
+        transform: translate(-0.5em, -50%);
 }
 [tooltip][flow^="left"]::after {
-  top: 50%;
-  right: calc(100% + 5px);
-  transform: translate(-.5em, -50%);
+        top: 50%;
+        right: calc(100% + 5px);
+        transform: translate(-0.5em, -50%);
 }
 
 [tooltip][flow^="right"]::before {
-  top: 50%;
-  border-left-width: 0;
-  border-right-color: #333;
-  right: calc(0em - 5px);
-  transform: translate(.5em, -50%);
+        top: 50%;
+        border-left-width: 0;
+        border-right-color: #333;
+        right: calc(0em - 5px);
+        transform: translate(0.5em, -50%);
 }
 [tooltip][flow^="right"]::after {
-  top: 50%;
-  left: calc(100% + 5px);
-  transform: translate(.5em, -50%);
+        top: 50%;
+        left: calc(100% + 5px);
+        transform: translate(0.5em, -50%);
 }
 
 @keyframes tooltips-vert {
-  to {
-    opacity: .9;
-    transform: translate(-50%, 0);
-  }
+        to {
+                opacity: 0.9;
+                transform: translate(-50%, 0);
+        }
 }
 
 @keyframes tooltips-horz {
-  to {
-    opacity: .9;
-    transform: translate(0, -50%);
-  }
+        to {
+                opacity: 0.9;
+                transform: translate(0, -50%);
+        }
 }
 
 [tooltip]:not([flow]):hover::before,
@@ -327,106 +311,96 @@ i.icn-icon.icon-history {
 [tooltip][flow^="up"]:hover::after,
 [tooltip][flow^="down"]:hover::before,
 [tooltip][flow^="down"]:hover::after {
-  animation: tooltips-vert 300ms ease-out forwards;
+        animation: tooltips-vert 300ms ease-out forwards;
 }
 
 [tooltip][flow^="left"]:hover::before,
 [tooltip][flow^="left"]:hover::after,
 [tooltip][flow^="right"]:hover::before,
 [tooltip][flow^="right"]:hover::after {
-  animation: tooltips-horz 300ms ease-out forwards;
+        animation: tooltips-horz 300ms ease-out forwards;
 }
 
 /* ТАБЫ */
 
 .tab {
-    overflow: hidden;
-    border: 1px solid var(--pl);
-    background: var(--col);
-    display: grid;
-    grid-auto-flow: column;
-    border-radius: 4pt 4pt 0 0;
+        overflow: hidden;
+        border: 1px solid var(--pl);
+        background: var(--col);
+        display: grid;
+        grid-auto-flow: column;
+        border-radius: 4pt 4pt 0 0;
 }
 
 .tab button {
-  background-color: inherit;
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  transition: 0.3s;
-  font-size: 17px;
+        background-color: inherit;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 14px 16px;
+        transition: 0.3s;
+        font-size: 17px;
 }
 
 .tab button:nth-child(odd) {
-    border-right: 1px solid var(--pl);
-
+        border-right: 1px solid var(--pl);
 }
 
 .tab button.active {
-    color: var(--second);
+        color: var(--second);
 }
-
-
 
 .tabcontent {
-  display: none;
-  padding: 18px 12px;
-  border: 1px solid var(--pl);
-  border-top: none;
-  border-radius: 0 0 4pt 4pt;
+        display: none;
+        padding: 18px 12px;
+        border: 1px solid var(--pl);
+        border-top: none;
+        border-radius: 0 0 4pt 4pt;
 }
 
-
-
-
-
 .favorite img {
-    width: 100px;
-    border-radius: 3pt;
-    height: 140px;
-    object-fit: cover;
+        width: 100px;
+        border-radius: 3pt;
+        height: 140px;
+        object-fit: cover;
 }
 
 .favorite {
-    display: grid;
-    justify-items: center;
-    grid-template-columns: repeat(auto-fill, 129px);
-    row-gap: 14px;
-    justify-content: center;
+        display: grid;
+        justify-items: center;
+        grid-template-columns: repeat(auto-fill, 129px);
+        row-gap: 14px;
+        justify-content: center;
 }
 
 .overlay {
-    position: relative;
-    overflow: hidden;
+        position: relative;
+        overflow: hidden;
 }
-
 
 .overlay:before {
-    background: rgb(1 1 1 / 1%);
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    content: "";
+        background: rgb(1 1 1 / 1%);
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        content: "";
 }
-
 
 /*======*/
 @media (max-width: 1124px) {
+        html:before {
+                content: " Этот сайт не для моб версий";
+                vertical-align: middle;
+                width: 100%;
+                height: 100%;
+                display: inline-grid;
+                align-items: center;
+                margin: 0 auto;
+                text-align: center;
+        }
 
-html:before {
-    content: " Этот сайт не для моб версий";
-    vertical-align: middle;
-    width: 100%;
-    height: 100%;
-    display: inline-grid;
-    align-items: center;
-    margin: 0 auto;
-    text-align: center;
-}
-
-body {
-  display: none;
-}
+        body {
+                display: none;
+        }
 }
