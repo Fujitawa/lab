@@ -66,6 +66,8 @@ h3 {
     height: 250px;
     overflow: hidden;
     border-radius: 4pt 4pt 0 0;
+    border: 1px solid var(--pl);
+    border-bottom: 0;
 }
 
 .avatar img {
