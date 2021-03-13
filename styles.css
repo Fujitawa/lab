@@ -1,5 +1,5 @@
 :root {
-        --bg-color: #fafafa;
+        --bg-color: #fdfdfd;
         --link: #67827a;
         --second: #efefef;
         --second-hover: #d6d6d6;
@@ -159,7 +159,7 @@ span.nickname {
 .link, .icon {
     padding: 2pt;
     background: var(--second-light);
-    border: 1px solid #ececec;
+    border: 1px solid transparent;;
 }
 
 .history {
