@@ -398,7 +398,7 @@ i.icn-icon.icon-history {
 }
 
 .overlay:before {
-        background: rgb(1 1 1 / 1%);
+        background: rgb(1 1 1 / 4%);
         position: absolute;
         width: 100%;
         height: 100%;
