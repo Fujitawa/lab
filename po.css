@@ -221,16 +221,6 @@ div[data-dynamic="tabs"] {
 }
 
 
-.n-a-v {
-    background: white;
-    display: inline-block;
-    margin: 0 auto;
-    border-bottom: 0;
-    overflow: auto;
-    top: 4em;
-    position: relative;
-}
-
 .nav_btn {
   width: 20px;
   background: transparent;
