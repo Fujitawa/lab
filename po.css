@@ -396,7 +396,7 @@ ul.b-block_list.orders.anime-params.subcontent {
 
 /* центрирование заголовок на страницах аниме манга ранобэ*/
 
-#animes_collection_index .subheadline.m5, #profiles_show .headline, .midheadline, .subheadline  {
+#animes_collection_index .subheadline.m5, #profiles_show .headline, #profiles_show .midheadline,  #profiles_show .subheadline  {
   text-align: center;
 }
 
