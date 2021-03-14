@@ -44,7 +44,14 @@
 .buttons .item-delete:before,
 .buttons .item-reply:before,
 .l-top_menu-v2 .menu-icon.trigger:before,
-.l-top_menu-v2 .global-search .search-marker:before {
+.l-top_menu-v2 .global-search .search-marker:before,
+  .buttons .editor-smiley:before,
+  .buttons .editor-file:before,
+  .buttons .editor-spoiler:before,
+  .buttons .editor-quote:before,
+  .buttons .editor-image:before,
+  .buttons .editor-link:before {
+    
         font-family: "reily";
 }
 
@@ -298,3 +305,36 @@
     font-size: 16px;
     color: black;
 }
+
+  
+  
+  
+/*смайлики*/
+
+.buttons .editor-smiley:before {
+    content: '\e805';
+}
+
+
+.buttons .editor-file:before {
+    content: '\e9f8';
+}
+
+
+.buttons .editor-spoiler:before {
+    content: '\e91b';
+}
+
+
+.buttons .editor-quote:before {
+    content: '\eb08';
+}
+
+.buttons .editor-image:before {
+    content: '\e820';
+}
+
+.buttons .editor-link:before {
+    content: '\e836';
+}
+
