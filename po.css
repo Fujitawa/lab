@@ -213,14 +213,22 @@ a.link.link-prev:before,
 
 /* Оформление вкладок */
 
+div[data-dynamic="tabs"] {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 30px auto;
+    gap: 1em;
+}
+
+
 .n-a-v {
-  width: min-content;
-  background: white;
-  height: 20px;
-  border: 1px solid black;
-  display: flex;
-  margin: 0 auto;
-  border-bottom: 0;
+    background: white;
+    display: inline-block;
+    margin: 0 auto;
+    border-bottom: 0;
+    overflow: auto;
+    top: 4em;
+    position: relative;
 }
 
 .nav_btn {
