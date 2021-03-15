@@ -1,4 +1,24 @@
-[spoiler=Как сделать рандомную аву или фон при каждом обновлении страницы?]
+
+
+
+[p]
+[/p]
+[div=to-process data-dynamic=tabs][div=n-a-v]
+  [span=nav_btn active data-tab-switch] [/span]
+  [span=nav_btn data-tab-switch] [/span]
+  [span=nav_btn data-tab-switch] [/span]
+  [span=nav_btn data-tab-switch] [/span]
+[/div]
+[div=kontent][div data-tab]
+Рефреш —  ||https://shikimori.one/tests/reset_styles_cache ||
+Цветная Энциклопедия — [url=https://www.colorhexa.com/]Сайт[/url]
+Иконки png, svg — [url=https://iconmonstr.com/]Сайт[/url]
+Палитры — [url=https://colorhunt.co/]Сайт[/url]
+Фэнтези обои — [url=https://www.goodfon.ru/tags/fantasy/]Сайт[/url]
+Инструмент для создания логотипа — [url=https://www.canva.com/]Сайт[/url]
+Читабельный код - [url=https://codebeautify.org/css-beautify-minify]Сайт[/url] 
+
+[spoiler=Как сделать рандомный фон при каждом обновлении страницы?]
 
 > 1. Заходим на [url=https://randart.ru/]randart.ru[/url], регистрируемся через шикимори.
 > 2. Кликаем в меню на файлы.
@@ -12,22 +32,8 @@
 > 10. Затем переходим во вкладку мои списки и копируем ссылку.
 > 11. Затем ставим его в код.
 
-[div=very-pale-blue][spoiler=Код для авы][code] .p-profiles .profile-head .c-brief .avatar img {
-    opacity: 0;
-}
 
-
-.p-profiles .profile-head .c-brief .avatar:before {
-    width: 110px;
-    height: 110px;
-    position: absolute;
-    background: url(вставьте сюда ссылку);
-    z-index: 999;
-    content: "";
-    background-size: cover;
-    border-radius: 2pt;
-} [/code][/spoiler][/div]
-[div=c-orange][spoiler=Код для фона]
+[div=c-orange][spoiler=Код]
 
 [code]
 
@@ -46,5 +52,103 @@ body {
 [/spoiler]
 [/div]
 
-@Reily :  [div= material-icons][size=16] [color=#d4a05b] report_gmailerrorred [/color] [/size] [/div] Если будет что-то не понятно, пишите!
+  [color=#d4a05b][div=icn-icon icon-attention][size=16] [/color] [/size] @Reily :  Если будет что-то не понятно, пишите! [/div]
 [/spoiler]
+
+[/div][div=hidden data-tab]
+Сюда буду добавлять те аниме, которые посмотрел, и те, которые мне понравились.
+
+[div=c-orange][spoiler_block=Исекай]
+[div=rate_module cc-7]
+[div=c-column][animes ids=41312 cover_notice=studio][b]10/10[/b][/div]
+[div=c-column][animes ids=39535][b]10/10[/b][/div]
+[div=c-column][animes ids=39196][b]8/10[/b][/div]
+[div=c-column][animes ids=40496][b]10/10[/b][/div]
+[div=c-column][animes ids=37210][b]10/10[/b][/div]
+[div=c-column][animes ids=35203][b]10/10[/b][/div]
+[div=c-column][animes ids=38830][b]10/10[/b][/div]
+[div=c-column][animes ids=38297][b]10/10[/b][/div]
+[div=c-column][animes ids=35790][b]7/10[/b][/div]
+[div=c-column][animes ids=37675][b]10/10[/b][/div]
+[div=c-column][animes ids=13161][b]10/10[/b][/div]
+[div=c-column][animes ids=28805][b]10/10[/b][/div]
+[div=c-column][animes ids=38659][b]10/10[/b][/div]
+[div=c-column][animes ids=36407][b]7/10[/b][/div]
+[/div][/spoiler_block][/div]
+[div=very-pale-blue][spoiler_block=Детектив]
+
+[div=rate_module cc-7]
+[div=c-column][animes ids=1470 cover_notice=studio][b]10/10[/b][/div]
+[div=c-column][animes ids=1471][b]10/10[/b][/div]
+[div=c-column][animes ids=1472][b]10/10[/b][/div]
+[div=c-column][animes ids=1473][b]10/10[/b][/div]
+[div=c-column][animes ids=1477][b]10/10[/b][/div]
+[div=c-column][animes ids=1475][b]10/10[/b][/div]
+[div=c-column][animes ids=1476][b]10/10[/b][/div]
+[div=c-column][animes ids=1478][b]10/10[/b][/div]
+[div=c-column][animes ids=1479][b]10/10[/b][/div]
+[div=c-column][animes ids=40911][b]10/10[/b][/div]
+[div=c-column][animes ids=40052][b]10/10[/b][/div]
+[/div][/spoiler_block][/div]
+[div=c-orange][spoiler_block=Самурайское]
+
+[div=rate_module cc-7]
+[div=c-column][animes ids=340 cover_notice=studio][b]10/10[/b][/div]
+[div=c-column][animes ids=205][b]10/10[/b][/div]
+[div=c-column][animes ids=2418][b]10/10[/b][/div]
+[div=c-column][animes ids=45][b]10/10[/b][/div]
+[div=c-column][animes ids=1292][b]10/10[/b][/div]
+[div=c-column][animes ids=5355][b]10/10[/b][/div]
+[div=c-column][animes ids=5883][b]10/10[/b][/div]
+[div=c-column][animes ids=4151][b]10/10[/b][/div]
+[div=c-column][animes ids=11241][b]10/10[/b][/div]
+[div=c-column][animes ids=617][b]10/10[/b][/div]
+[/div][/spoiler_block][/div]
+[div=very-pale-blue][spoiler_block=Турнирное‌‌‍‍‌‌‍‍ [img no-zoom w=27 h=27]https://i.gifer.com/ZbpB.gif[/img]]
+
+[div=rate_module cc-7]
+[div=c-column][animes ids=287 cover_notice=studio][b]10/10[/b][/div]
+[div=c-column][animes ids=20][b]10/10[/b][/div]
+[div=c-column][animes ids=41353][b]10/10[/b][/div]
+[div=c-column][animes ids=30694][b]10/10[/b][/div]
+[div=c-column][animes ids=39555][b]10/10[/b][/div]
+[div=c-column][animes ids=1559][b]10/10[/b][/div]
+[div=c-column][animes ids=263][b]10/10[/b][/div]
+[div=c-column][animes ids=36903][b]10/10[/b][/div]
+[div=c-column][animes ids=40269][b]10/10[/b][/div]
+[div=c-column][animes ids=11061][b]10/10[/b][/div]
+[div=c-column][animes ids=31964][b]10/10[/b][/div]
+[div=c-column][animes ids=34572][b]10/10[/b][/div]
+[div=c-column][animes ids=223][b]10/10[/b][/div]
+[div=c-column][animes ids=340][b]10/10[/b][/div]
+[div=c-column][animes ids=42940][b]10/10[/b][/div]
+[/div][/spoiler_block][/div]
+[/div]
+[div=hidden data-tab]
+[div=mes-collections]
+[div=la-collection] 
+[url=https://shikimori.one/collections/7780-detektivy][div=pict] [poster]https://konachan.com/sample/dd0071908a8ad65de72b5445bdac8309/Konachan.com%20-%2085637%20sample.jpg[/poster] [/div]
+[div=zagolovok] [span] Детектив [/span][/div][/url]
+[/div]
+[div=la-collection] 
+[url=https://shikimori.one/collections/7779-gar][div=pict] [poster]https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e331a4b4-f3cd-4525-a2cd-8d585ef17194/d6v1w1m-41f236d1-1aa8-4074-9956-2e581f1db336.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvZTMzMWE0YjQtZjNjZC00NTI1LWEyY2QtOGQ1ODVlZjE3MTk0XC9kNnYxdzFtLTQxZjIzNmQxLTFhYTgtNDA3NC05OTU2LTJlNTgxZjFkYjMzNi5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.RbVrIBMQKgAYIW8ZntIF1qw8UpkTqZQ0FC9rz9nm9MM[/poster] [/div]
+[div=zagolovok] [span] Гар[/span][/div][/url]
+[/div]
+[div=la-collection] 
+[url=#][div=pict] [poster]https://i.pinimg.com/originals/fc/48/7e/fc487e05bc3b055bd840886b75daca7c.png[/poster] [/div]
+[div=zagolovok] [span] Стратеги [/span][/div][/url]
+[/div]
+[div=la-collection] 
+[url=#][div=pict] [poster]https://www.gamerevolution.com/assets/uploads/2020/02/How-to-play-as-Saitama-in-One-Punch-Man-A-Hero-Nobody-Knows-1.jpg[/poster] [/div]
+[div=zagolovok] [span] Имбы [/span][/div][/url]
+[/div]
+
+[/div]
+[/div]
+[div=hidden data-tab]
+[div=col][div]https://www.youtube.com/watch?v=64Gcnd6tESo[/div]
+[div]https://www.youtube.com/watch?v=A7WZhoGRjMI&t=274s[/div] [div]https://www.youtube.com/watch?v=OKS37bS8id4 [/div] [div]https://www.youtube.com/watch?v=taEVyGmnwQo [/div] [div]https://www.youtube.com/watch?v=B4mobu9ZtCE[/div] [div] https://www.youtube.com/watch?v=soIQiH7pCeQ [/div] [div]https://www.youtube.com/watch?v=03FPKUQcOkM&feature=youtu.be[/div] [div]https://www.youtube.com/watch?v=oh0UemqzO2g&feature=youtu.be [/div] [div]https://www.youtube.com/watch?v=EkgUfloJMAE [/div] [div]https://www.youtube.com/watch?v=osqKnNBdXuM [/div] [div]https://www.youtube.com/watch?v=AWgvgnDLRHM[/div] [div]https://www.youtube.com/watch?v=mXHrtlyFbzI [/div] [div]https://www.youtube.com/watch?v=DlbdmgmMS50[/div] [div]  https://www.youtube.com/watch?v=J2GqlYQSTe0[/div] [div] https://www.youtube.com/watch?v=yJqHahZ3nMA [/div] [div]https://www.youtube.com/watch?v=jQSkRM6EKlo[/div] [div] https://www.youtube.com/watch?v=Jq7l6i5FIrc[/div] [div] https://www.youtube.com/watch?v=1wgMprbr5k4[/div][div]https://www.youtube.com/watch?v=a7DZh74Owi0&feature=emb_rel_end[/div][div]https://www.youtube.com/watch?v=UFHHL6raKNw&list=RDa7DZh74Owi0&index=8[/div]
+[div]https://www.youtube.com/watch?v=_XYBAcmzusQ[/div][/div]
+[/div][/div][/div]
+
+[span=f-manga][span=material-icons] [url=https://mangalib.me/user/2669911][color=#838390]book[/color][/url] [/span][/span]
