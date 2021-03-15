@@ -9,6 +9,8 @@
         --col: white;
         --second-color:#b99898;
         --second-light:#f3f3f3;
+        --mode: #343366;
+
 }
 
 
@@ -20,9 +22,10 @@
     --pl: #a2a2a229; 
     --main-color: #cecece;
     --link-hover: #b38d38;
-     --col: #47434e; 
-    --second-color: #b99898;
+    --col: #47434e; 
+    --second-color: #f97171;
     --second-light: #3b3a3c;
+    --mode: #fbfbfb;
 }
 
 
@@ -54,9 +57,6 @@ h3 {
 }
 
 
-.tabcontent {
-        background: var(--col);
-}
 
 .horizontal-line {
         border-top: 1px solid var(--pl);
@@ -357,6 +357,7 @@ i.icn-icon.icon-history {
         padding: 14px 16px;
         transition: 0.3s;
         font-size: 17px;
+        color: var(--main-color);
 }
 
 .tab button:nth-child(odd) {
@@ -370,7 +371,6 @@ i.icn-icon.icon-history {
 .tabcontent {
         display: none;
         padding: 18px 12px;
-        border: 1px solid var(--pl);
         border-top: none;
         border-radius: 0 0 4pt 4pt;
 }
@@ -403,6 +403,20 @@ i.icn-icon.icon-history {
         content: "";
 }
 
+.theme-switch svg {
+  fill: var(--mode);
+  float: right;
+  position: relative;
+  right: 20px;
+  top: 10px;
+  cursor: pointer;
+  z-index: 9;
+}
+
+.theme-switch input#checkbox {
+  visibility: hidden;
+}
+
 /*======*/
 @media (max-width: 1124px) {
         html:before {
@@ -420,3 +434,7 @@ i.icn-icon.icon-history {
                 display: none;
         }
 }
+
+
+
+
