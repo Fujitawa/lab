@@ -55,6 +55,9 @@
   border-top: 0;
 }
 
+.b-spoiler_block>div {
+  padding: 4pt;
+}
 /*text-decoration*/
 
 .p-profiles .profile-head .c-info .c-additionals div a:hover,
