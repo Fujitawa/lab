@@ -11,6 +11,21 @@
         --second-light:#f3f3f3;
 }
 
+
+[data-theme="dark"] {
+   --bg-color: #141414;
+    --link: #73a797;
+    --second: #232325;
+    --second-hover: #403c48;
+    --pl: #a2a2a229; 
+    --main-color: #cecece;
+    --link-hover: #b38d38;
+     --col: #47434e; 
+    --second-color: #b99898;
+    --second-light: #3b3a3c;
+}
+
+
 body {
         background: var(--bg-color);
         font-family: "Nunito", sans-serif;
