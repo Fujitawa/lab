@@ -341,8 +341,6 @@ i.icn-icon.icon-history {
 
 .tab {
         overflow: hidden;
-        border: 1px solid var(--pl);
-        background: var(--col);
         display: grid;
         grid-auto-flow: column;
         border-radius: 4pt 4pt 0 0;
