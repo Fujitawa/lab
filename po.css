@@ -12,6 +12,8 @@
 --zel:hsl(70.4, 71.4%, 79.4%);
 --gol:hsl(190.4, 71.4%, 79.4%); 
 --jel:hsl(49, 83.1%, 76.9%);
+--zgl-h:#bf9636; 
+--zglv:#443a61eb;
 }
 
 .b-collection-filters .b-block_list li input[type="checkbox"]:before,
@@ -481,3 +483,60 @@ a.link.link-prev:before {
 }
 
 /*===*/
+
+
+
+/* Обо мне */
+
+/*убираем заголовок*/
+
+.about.block .subheadline {
+        display: none !important;
+}
+
+.mes-collections {
+        display: grid;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        gap: 3pt;
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+}
+
+.la-collection {
+        position: relative;
+        overflow: hidden;
+        border-radius: 4pt;
+        display: inline-flex;
+        max-height: 200px;
+        height: 100%;
+}
+
+.pict {
+        display: flex;
+}
+
+.pict img {
+        width: 100%;
+        height: 203px;
+        object-fit: cover;
+}
+
+.zagolovok a {
+        color: var(--w) !important;
+}
+
+.zagolovok a:hover {
+        color: var(--zgl-h) !important;
+}
+
+.zagolovok {
+        position: absolute;
+        background: var(--zglv);
+        color: var(--w);
+        bottom: 0;
+        text-align: center;
+        padding: 5px;
+        font-weight: 800;
+        font-size: 20px;
+        width: 100%;
+}
