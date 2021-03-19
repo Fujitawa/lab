@@ -1,3 +1,17 @@
+.b-collection-filters .b-block_list li input[type="checkbox"]:before,
+.b-collection-filters .b-block_list li input[type="checkbox"]:checked:before,
+.b-collection-filters .b-block_list.orders li.selected::before,
+.b-collection-filters .b-block_list.orders li::before,
+.b-collection-filters .b-block_list li .b-question::before,
+a.link.link-next:before,
+a.link.link-prev:before,
+.item-sign:before,
+.item-add:before, .very-pale-blue .b-spoiler_block > span:after,
+.very-pale-blue .b-spoiler_block.is-opened > span:after
+{
+  font-family: reily;
+}
+
 /* Видео*/
 
 .col {
@@ -32,13 +46,13 @@
 }
 
 .b-spoiler_block > span {
-  background: transparent !important;
+  background: var(--very-light) !important;
   padding: 6px 20px;
   color: black;
   font-size: 15px;
   line-height: 26px;
   width: 100%;
-  border: 1px solid rgba(227, 227, 227, 1);
+  border: 1px solid var(--spl);
   border-radius: 8px;
 }
 .b-spoiler_block > span:hover {
@@ -46,46 +60,19 @@
 }
 
 .b-spoiler_block > div {
-  background: hsl(0deg 0% 99%);
+  background: var(--bg-spl);
   border-left: none;
   border-radius: 0 0 8px 8px;
   width: 100%;
   margin-top: 0;
-  border: 1px solid #e3e3e3;
+  border: 1px solid var(--spl1);
   border-top: 0;
 }
 
 .b-spoiler_block>div {
   padding: 4pt;
 }
-/*text-decoration*/
 
-.p-profiles .profile-head .c-info .c-additionals div a:hover,
-.headline > a:hover,
-.midheadline > a:hover,
-.subheadline > a:hover,
-.p-profiles .profile-head .c-history .entry:hover .title,
-.b-stats_bar .stat_names .stat_name a:hover,
-.p-profiles-show .about a:hover,
-.p-profiles
-  .profile-head
-  .c-info
-  .c-lists-info
-  .b-stats_bar
-  .compatibility
-  a:hover,
-.b-stats_bar a.title:hover,
-.b-catalog_entry .cover:hover .title,
-.b-add_to_list .trigger .text:hover,
-.b-add_to_list .option .text:hover,
-.b-link:hover,
-.b-shiki_editor footer .about-bb_codes:hover,
-.p-animes_collection-index .pagination .link:hover,
-.p-mangas_collection-index .pagination .link:hover,
-.p-recommendations-index .pagination .link:hover,
-.p-userlist_comparer-show .pagination .link:hover {
-  text-decoration: none;
-}
 
 /* Фиксированные размеры постеров */
 
@@ -120,19 +107,6 @@
   -ms-transform: scale(1.028);
 }
 
-/*----- MATERIALS ICONS ------*/
-
-.b-collection-filters .b-block_list li input[type="checkbox"]:before,
-.b-collection-filters .b-block_list li input[type="checkbox"]:checked:before,
-.b-collection-filters .b-block_list.orders li.selected::before,
-.b-collection-filters .b-block_list.orders li::before,
-.b-collection-filters .b-block_list li .b-question::before,
-a.link.link-next:before,
-a.link.link-prev:before,
-.item-sign:before,
-.item-add:before {
-  font-family: var(--mi);
-}
 
 /*блок лист*/
 
@@ -165,19 +139,19 @@ a.link.link-prev:before,
 }
 
 .b-collection-filters .b-block_list li input[type="checkbox"]:before {
-  content: "check_box_outline_blank";
+  content: '\f10c';
   font-size: 16px;
   vertical-align: middle;
 }
 
 .b-collection-filters .b-block_list li input[type="checkbox"]:checked:before {
-  content: "check_box";
+  content: '\e828';
   vertical-align: middle;
   font-size: 16px;
 }
 
 .b-collection-filters .b-block_list.orders li.selected::before {
-  content: "radio_button_checked";
+  content: '\e8ad';
   color: #aad2ad;
 }
 
@@ -189,7 +163,7 @@ a.link.link-prev:before,
 }
 
 .b-collection-filters .b-block_list.orders li::before {
-  content: "radio_button_unchecked";
+  content: '\edbe';
   color: #96bae8;
 }
 
@@ -322,14 +296,12 @@ a.link.link-prev:before,
 }
 
 .very-pale-blue .b-spoiler_block > span:after {
-  font-family: var(--mi);
-  content: "add";
+  content: '\e82c';
   color: #8c78f3;
 }
 
 .very-pale-blue .b-spoiler_block.is-opened > span:after {
-  font-family: var(--mi);
-  content: "remove";
+  content: '\e82e'; 
 }
 
 .very-pale-blue .b-spoiler_block > div {
