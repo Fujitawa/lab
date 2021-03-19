@@ -206,6 +206,19 @@ a.link.link-prev:before,
   cursor: help;
 }
 
+/*ОБО МНЕ*/
+
+span.abme {
+    left: 7px;
+    position: absolute;
+    border: 1px solid var(--bd);
+    border-bottom: 0;
+    width: 50px;
+    text-align: center;
+    border-radius: 3pt 2pt 0 0;
+}
+
+
 /* Оформление вкладок */
 
  .metilyndioxymetanfentamin[data-dynamic="tabs"] {
@@ -214,7 +227,7 @@ a.link.link-prev:before,
     grid-auto-columns: 30px auto;
     gap: 1em;
     position: relative;
-    border: 1px solid var(--very-light);
+    border: 1px solid var(--bd);
     padding: 5px;
     border-radius: 2pt;
 }
@@ -265,7 +278,7 @@ a.link.link-prev:before,
     position: absolute;
     width: 1px;
     height: 100%;
-    background: var(--very-light);
+    background: var(--bd);
     left: 40px;
 }
 
