@@ -208,7 +208,7 @@ a.link.link-prev:before,
 
 /* Оформление вкладок */
 
-#profiles_show div[data-dynamic="tabs"] {
+ .metilyndioxymetanfentamin [data-dynamic="tabs"] {
     display: grid;
     grid-auto-flow: column;
     grid-auto-columns: 30px auto;
