@@ -213,6 +213,7 @@ a.link.link-prev:before,
     grid-auto-flow: column;
     grid-auto-columns: 30px auto;
     gap: 1em;
+    position:relative;
 }
 
 
@@ -252,6 +253,27 @@ a.link.link-prev:before,
 .nav_btn.active:before {
   background: indianred;
   margin: 3px 0 0;
+}
+
+.n-a-v {
+    position: relative;
+}
+
+.n-a-v:before {
+    border-right: 1px solid var(--very-light);
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 5px;
+}
+
+.ln {
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    background: var(--very-light);
+    left: 33px;
 }
 
 
