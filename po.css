@@ -1,3 +1,7 @@
+:root {
+ --ch-bl:#96bae8; 
+}
+
 .b-collection-filters .b-block_list li input[type="checkbox"]:before,
 .b-collection-filters .b-block_list li input[type="checkbox"]:checked:before,
 .b-collection-filters .b-block_list.orders li.selected::before,
@@ -7,7 +11,7 @@ a.link.link-next:before,
 a.link.link-prev:before,
 .item-sign:before,
 .item-add:before, .very-pale-blue .b-spoiler_block > span:after,
-.very-pale-blue .b-spoiler_block.is-opened > span:after
+.very-pale-blue .b-spoiler_block.is-opened > span:after, .c-orange .b-spoiler_block > span:after,  .c-orange .b-spoiler_block.is-opened > span:after
 {
   font-family: reily;
 }
@@ -135,7 +139,7 @@ a.link.link-prev:before,
   appearance: none;
   background: transparent;
   border: none;
-  color: #96bae8;
+  color: var(--ch-bl);
 }
 
 .b-collection-filters .b-block_list li input[type="checkbox"]:before {
@@ -163,8 +167,8 @@ a.link.link-prev:before,
 }
 
 .b-collection-filters .b-block_list.orders li::before {
-  content: '\edbe';
-  color: #96bae8;
+  content: '\f096';
+  color: var(--ch-bl);
 }
 
 /*помощь*/
@@ -255,14 +259,13 @@ a.link.link-prev:before,
 }
 
 .c-orange .b-spoiler_block > span:after {
-  font-family: var(--mi);
-  content: "add";
+  
+  content: '\e82c';
   color: #e8aa80;
 }
 
 .c-orange .b-spoiler_block.is-opened > span:after {
-  font-family: var(--mi);
-  content: "remove";
+  content: '\e8b9';
 }
 
 .c-orange .b-spoiler_block > div {
@@ -301,7 +304,7 @@ a.link.link-prev:before,
 }
 
 .very-pale-blue .b-spoiler_block.is-opened > span:after {
-  content: '\e82e'; 
+  content: '\e8b9';
 }
 
 .very-pale-blue .b-spoiler_block > div {
