@@ -10,6 +10,7 @@
         --second-color:#b99898;
         --second-light:#f3f3f3;
         --mode: #343366;
+        --text-active:#a0a7da;
 
 }
 
@@ -363,7 +364,7 @@ i.icn-icon.icon-history {
 }
 
 .tab button.active {
-        color: var(--surface);
+        color: var(--text-active);
 }
 
 .tabcontent {
