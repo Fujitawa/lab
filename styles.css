@@ -349,6 +349,7 @@ i.icn-icon.icon-history {
         display: grid;
         grid-auto-flow: column;
         border-radius: 4pt 4pt 0 0;
+        background: var(--surface);
 }
 
 .tab button {
@@ -376,6 +377,7 @@ i.icn-icon.icon-history {
         padding: 18px 12px;
         border-top: none;
         border-radius: 0 0 4pt 4pt;
+        background: var(--surface);
 }
 
 .favorite img {
@@ -420,6 +422,38 @@ i.icn-icon.icon-history {
   visibility: hidden;
 }
 
+
+
+
+span.name {
+    font-weight: 800;
+}
+
+span.date {
+    font-size: 12px;
+}
+
+
+.post {
+    background: var(--surface);
+    margin-top: 2em;
+    padding: 12px;
+    border-radius: 3pt;
+    display: grid;
+    grid-auto-flow: row;
+    row-gap: 1em;
+}
+
+
+.acc img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100pt;
+    object-fit: cover;
+    grid-area: 1 / 1 / 3 / 2;
+}
+
+
 /*======*/
 @media (max-width: 1124px) {
         html:before {
@@ -437,6 +471,8 @@ i.icn-icon.icon-history {
                 display: none;
         }
 }
+
+
 
 
 
