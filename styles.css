@@ -483,3 +483,6 @@ span.date {
 
 
 
+.likebtn-wrapper .lb-share-active .lb-a .lb-tt.lb-share-tt {
+    visibility: hidden;
+}
