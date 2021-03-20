@@ -76,6 +76,10 @@ h3 {
         align-items: start
 }
 
+.right {
+    background: var(--surface);
+}
+
 .left {
     z-index: 1;
 }
