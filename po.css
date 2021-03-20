@@ -216,6 +216,7 @@ span.abme {
     width: 50px;
     text-align: center;
     border-radius: 3pt 2pt 0 0;
+    background:var(--bd);
 }
 
 
@@ -230,6 +231,7 @@ span.abme {
     border: 1px solid var(--bd);
     padding: 5px;
     border-radius: 2pt;
+    background:var(--bd);
 }
 
 .nav_btn {
