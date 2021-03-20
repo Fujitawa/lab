@@ -444,6 +444,12 @@ span.date {
     row-gap: 1em;
 }
 
+.acc {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 8pt;
+}
+
 
 .acc img {
     width: 50px;
