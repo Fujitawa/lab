@@ -505,6 +505,7 @@ ul {
   left: 0;
   text-align: center;
   z-index: 33;
+  display:none;
 }
 
 #overlay img {
