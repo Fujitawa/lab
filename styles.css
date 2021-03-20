@@ -480,10 +480,10 @@ span.date {
 }
 
 #photos img {
-  width: 30%;
-  float: left;
-  display: block;
-  margin: 2px;
+    height: 100px;
+    width: 140px;
+    display: block;
+    object-fit: cover;
 }
 
 ul {
@@ -496,14 +496,15 @@ ul {
 }
 
 #overlay {
-  background: rgba(0,0,0, .8);
+  background: #000000f2;
   width: 100%;
   height: 100%;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   display: none;
   text-align: center;
+  z-index: 33;
 }
 
 #overlay img {
@@ -512,12 +513,12 @@ ul {
   border-radius: 5px;
 }
 
-#photos {
-  width: 100%;
-}
 
 #photo-gallery {
-  width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-template-rows: auto;
+    gap: 6px;
 }
 
 /*======*/
