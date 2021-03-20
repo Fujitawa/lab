@@ -459,6 +459,16 @@ span.date {
     grid-area: 1 / 1 / 3 / 2;
 }
 
+.counter {
+    margin: auto;
+    margin-right: 0;
+}
+
+
+.likebtn-wrapper .lb-share-active .lb-a .lb-tt.lb-share-tt {
+    visibility: hidden;
+}
+
 
 /*======*/
 @media (max-width: 1124px) {
@@ -478,11 +488,3 @@ span.date {
         }
 }
 
-
-
-
-
-
-.likebtn-wrapper .lb-share-active .lb-a .lb-tt.lb-share-tt {
-    visibility: hidden;
-}
