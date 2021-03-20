@@ -485,6 +485,7 @@ span.date {
     width: 140px;
     display: block;
     object-fit: cover;
+    border-radius: 4pt;
 }
 
 ul {
