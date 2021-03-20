@@ -66,12 +66,10 @@ toggleSwitch.addEventListener('change', switchTheme, false);
 
  <!-- - - - - -  БЛОК СПРАВА - - - - - - - -->
 
-  <div class="right">
-
-
+ <div class="post">
     <div class="tab">
   <button class="tablinks" onclick="openCity(event, 'Anime')" id="defaultOpen">Аниме</button>
-  <button class="tablinks" onclick="openCity(event, 'Manga')">Манга</button>
+  <button class="tablinks active" onclick="openCity(event, 'Manga')">Манга</button>
 </div>
 
 
@@ -79,7 +77,7 @@ toggleSwitch.addEventListener('change', switchTheme, false);
 
 
 
-<div id="Anime" class="tabcontent">
+<div id="Anime" class="tabcontent" style="display: none;">
   <div class="favorite"> 
  <span tooltip="Городской Охотник" flow="up"><a href="https://shikimori.one/animes/1474-city-hunter-ai-to-shukumei-no-magnum"><img src="https://dere.shikimori.one/system/animes/original/1474.jpg?1611134982"></a></span>
 
@@ -149,7 +147,7 @@ toggleSwitch.addEventListener('change', switchTheme, false);
 
 
 
-<div id="Manga" class="tabcontent" style="display: none;">
+<div id="Manga" class="tabcontent" style="display: block;">
 <div class="favorite"> 
  <span tooltip="Прожигающие жизнь" flow="up"><a href="https://mangalib.me/zar-heat"><img src="https://desu.shikimori.one/system/mangas/original/3928.jpg?1574953132"></a></span>
 
@@ -166,7 +164,7 @@ toggleSwitch.addEventListener('change', switchTheme, false);
 
   
   
-
+    </div>
 </div>
 </div>
 
