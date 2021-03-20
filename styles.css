@@ -1,7 +1,7 @@
 :root {
-        --bg-color: #fdfdfd;
+        --bg-color: #fafafa;
         --link: #67827a;
-        --second: #efefef;
+        --surface: #efefef;
         --second-hover: #d6d6d6;
         --pl: #a2a2a229;
         --main-color: #65666b;
@@ -17,7 +17,7 @@
 [data-theme="dark"] {
    --bg-color:#151522;
     --link: #73a797;
-    --second: #232325;
+    --surface: #232325;
     --second-hover: #403c48;
     --pl: #a2a2a229; 
     --main-color: #cecece;
@@ -103,7 +103,7 @@ h3 {
 .social {
     display: grid;
     grid-template-columns: 100px 100px;
-    background: var(--second);
+    background: var(--surface);
     border-radius: 0 0 4pt 3pt;
     text-align: center;
     order: 4;
@@ -139,7 +139,7 @@ span.nickname {
     font-weight: bold;
     order: 3;
     text-align:center;
-    background: var(--second);
+    background: var(--surface);
     padding: 1.3pt;
 }
 
@@ -155,7 +155,7 @@ span.nickname {
 
 .link, .icon {
     padding: 2pt;
-    background: var(--second-light);
+    background: var(--surface);
     border: 1px solid transparent;;
 }
 
@@ -191,7 +191,7 @@ span.nickname {
 .icon {
     display: inline-grid;
     align-items: center;
-    background: var(--second-light);
+    background: var(--surface);
     border-radius: 3pt 0 0 0;
     text-align:center;
 }
@@ -363,7 +363,7 @@ i.icn-icon.icon-history {
 }
 
 .tab button.active {
-        color: var(--second-color);
+        color: var(--surface);
 }
 
 .tabcontent {
