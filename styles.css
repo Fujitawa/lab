@@ -174,10 +174,10 @@ span.nickname {
 
 .link:before {
     right: .999em;
-    content: "прочитано";
     position: absolute;
     font-size: 9px;
     bottom: 0;
+    content: attr(original-title);
 }
 
 
