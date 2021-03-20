@@ -508,9 +508,12 @@ ul {
 }
 
 #overlay img {
-  margin: 10% auto 0;
-  width: 550px;
-  border-radius: 5px;
+    width: 90%;
+    border-radius: 5px;
+    height: 90%;
+    object-fit: contain;
+    align-self: center;
+    margin: 0 auto;
 }
 
 
