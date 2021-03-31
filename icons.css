@@ -50,7 +50,10 @@
   .buttons .editor-spoiler:before,
   .buttons .editor-quote:before,
   .buttons .editor-image:before,
-  .buttons .editor-link:before {
+  .buttons .editor-link:before,
+  .b-subposter-action.upload:before,
+  .b-subposter-action.invite:before
+   .b-subposter-action.leave:before {
     
         font-family: "reily";
 }
@@ -338,3 +341,25 @@
     content: '\e836';
 }
 
+
+  
+  
+  /* клуб */
+  
+  /* загрузить картинку */
+  
+  .b-subposter-action.upload:before {
+     content: '\ee08'; 
+ }
+  
+  /* пригласить в клуб */
+  
+.b-subposter-action.invite:before {
+    content: '\e9be';
+  }
+  
+  /* уйти из клуба */
+  
+  .b-subposter-action.leave:before {
+    content: '\ee57';
+  }
