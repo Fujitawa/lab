@@ -1,303 +1,124 @@
-  <html lang="ru">
+<html lang="en">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="fav.ico" rel="icon" type="image/x-icon">
     <title>Reily</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://eoel.gq/Icons/css/reily-embedded.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-  </head>
-  <body>
-      <div class="theme-switch-wrapper">
-       <label class="theme-switch" for="checkbox">
-    <input type="checkbox" id="checkbox" />
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M18.896 7.104c-.682.6-.753 1.638-.153 2.324l-1.239 1.083-5.416-6.198 1.239-1.082c.599.684 1.638.753 2.32.154l3.246-2.776c.47-.407 1.048-.609 1.625-.609 1.38 0 2.482 1.128 2.482 2.471 0 .73-.322 1.393-.854 1.858l-3.25 2.775zm-6.943 3.896h-2.5l3.562-3.123-1.085-1.24-7.339 6.387c-1.189 1.033-.368 1.831-1.348 3.195-.133.186-.21.372-.231.55-.066.54.325.995.817 1.056.194.023.41-.015.616-.137 1.55-.912 2.178.117 3.396-.947l7.34-6.384-1.081-1.241-2.147 1.884zm-9.106 7.5c-.535 2.053-1.847 2.335-1.847 3.684 0 1.003.834 1.816 1.847 1.816s1.834-.813 1.834-1.816c0-1.349-1.299-1.631-1.834-3.684z"/></svg>
-</label>
-         <script>const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
-const currentTheme = localStorage.getItem('theme');
+        <link rel="stylesheet" href="https://eoel.gq/Icons/css/reily-embedded.css">
 
-if (currentTheme) {
-    document.documentElement.setAttribute('data-theme', currentTheme);
-  
-    if (currentTheme === 'dark') {
-        toggleSwitch.checked = true;
-    }
-}
 
-function switchTheme(e) {
-    if (e.target.checked) {
-        document.documentElement.setAttribute('data-theme', 'dark');
-        localStorage.setItem('theme', 'dark');
-    }
-    else {        document.documentElement.setAttribute('data-theme', 'light');
-          localStorage.setItem('theme', 'light');
-    }    
-}
+</head>
+<body>
+<!--- JS --->
+<!--- Лист\ Грид --->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
-toggleSwitch.addEventListener('change', switchTheme, false);
 
-         </script>
- <div class="container">
-  <!-- - - - - БЛОК СЛЕВА - - - - - --> 
-  <div class="left"> 
-    <div class="col">
-    <div class="social"> <a href="https://mangalib.me/user/2669911"><span tooltip="Список Манги" flow="left"><span class="icn-icon icon-book"></span></span>  </a>
-<a href="https://vk.com/roixxv"><span tooltip="Моя страница" flow="right"><span class="icn-icon icon-vk"></span></span></a></div>
+<!--Карусель--->
 
-    <span class="nickname">Reily </span>
 
-      <!-- - - - - ПРОФИЛЬ - - - - - --> 
+<!--- Кнопка - Тема -->
 
-  <div class="profil"> <div class="avatar"><div class="overlay"><img src="https://randart.ru/art/Reily/avatar-s/" width="150px" height="300px"></div></div>
-
-</div>
-
-    
+<div class=cc>
+       <label class="mode" for="checkbox">
+    <input type="checkbox" id="checkbox">
+         <span class="ripplelink">
+         <span class="material-icons">
+nights_stay
+         </span></span></div>
 
 
 
+<!--- левое меню -->
 
-  <!--  - - - - -  ИСТОРИЯ - - - - - - - -->
-<div class="history"><div class="icon"><span tooltip="История" flow="left">  
-<i class="icn-icon icon-history"></i></span></div><div class="link"original-title="прочитано"><a href="https://mangalib.me/zar-heat"><img src="https://desu.shikimori.one/system/mangas/original/3928.jpg?1574953132"></a><a href="https://mangalib.me/zar-heat"> Прожигающие жизнь</a></div></div>
-    </div></div>
-
- <!-- - - - - -  БЛОК СПРАВА - - - - - - - -->
-<div class="right">
+<div class="m-menu">
+  <a href="#"><span class="material-icons">
+home
+</span><dt>Главная</dt></a>
+  <a href="#"><span class="material-icons">
+speaker_notes
+</span><dt>Чат</dt></a>
+  <a href="#"><span class="material-icons">
+class
+</span><dt>Книги</dt></a>
+  <a href="#"><span class="material-icons">
+notifications
+</span><dt>Уведомления</dt></a>
+  <a href="#"><span class="material-icons">
+article
+</span><dt>Новости</dt></a>
+  <a href="#"><span class="material-icons">
+search
+    </span> <dt>Поиск</dt></a>
+  <a href="#"><span class="material-icons">
+logout
+</span><dt>Выйти</dt></a>
  
-    <div class="tab">
-  <button class="tablinks active" onclick="openCity(event, 'Anime')" id="defaultOpen">Аниме</button>
-  <button class="tablinks" onclick="openCity(event, 'Manga')">Манга</button>
-</div>
-
-
-<!-- - - - - - - - - МАНГА СПИСОК - - - - -- -->
-
-
-
-<div id="Anime" class="tabcontent">
-  <div class="favorite"> 
- <span tooltip="Городской Охотник" flow="up"><a href="https://shikimori.one/animes/1474-city-hunter-ai-to-shukumei-no-magnum"><img src="https://dere.shikimori.one/system/animes/original/1474.jpg?1611134982"></a></span>
-
- <span tooltip="Ванпичмен" flow="up"><a href="https://shikimori.one/animes/z30276-one-punch-man"><img src="https://kawai.shikimori.one/system/animes/original/30276.jpg?1594779613"></a></span>
-
-
- <span tooltip="В другом мире со смартфоном" flow="up"><a href="https://shikimori.one/animes/z35203-isekai-wa-smartphone-to-tomo-ni"><img src="https://desu.shikimori.one/system/animes/original/35203.jpg?1610731778"></a></span>
-
-
-
- <span tooltip="Избранный богами" flow="up"><a href="https://shikimori.one/animes/41312-kami-tachi-ni-hirowareta-otoko"><img src="https://moe.shikimori.one/system/animes/original/41312.jpg?1607879810"></a></span>
-
-
- <span tooltip="Король демонов, попытайтесь снова!" flow="up"><a href="https://shikimori.one/animes/38297-maou-sama-retry"><img src="https://moe.shikimori.one/system/animes/original/38297.jpg?1604911209"></a></span>
-
-
- <span tooltip="Восьмой сын, я так не думаю!" flow="up"><a href="https://shikimori.one/animes/38830-hachi-nan-tte-sore-wa-nai-deshou"><img src="https://nyaa.shikimori.one/system/animes/original/38830.jpg?1607925489"></a></span>
-
-
-
- <span tooltip="Крутой учитель Онидзука" flow="up"><a href="https://shikimori.one/animes/245-great-teacher-onizuka"><img src="https://nyaa.shikimori.one/system/animes/original/245.jpg?1594843244"></a></span>
-
-
- <span tooltip="Золотой парень" flow="up"><a href="https://shikimori.one/animes/268-golden-boy"><img src="https://desu.shikimori.one/system/animes/original/268.jpg?1610044545"></a></span>
-
- <span tooltip="Кэнган Асура" flow="up"><a href="https://shikimori.one/animes/36903-kengan-ashura"><img src="https://desu.shikimori.one/system/animes/original/36903.jpg?1610952543"></a></span>
-
-
-<span tooltip="Баки" flow="up"><a href="https://shikimori.one/animes/34443-baki"><img src="https://desu.shikimori.one/system/animes/original/34443.jpg?1603219888"></a></span>
-
-<span tooltip="Магическая битва" flow="up"><a href="https://shikimori.one/animes/40748-jujutsu-kaisen-tv"><img src="https://desu.shikimori.one/system/animes/original/40748.jpg?1615501729"></a></span>
-
-
-<span tooltip="Галерея подделок" flow="up"><a href="https://shikimori.one/animes/364-gallery-fake"><img src="https://dere.shikimori.one/system/animes/original/364.jpg?1610903528"></a></span>
-
-
-<span tooltip="Реинкарнация безработного: История о приключениях в другом мире " flow="up"><a href="https://shikimori.one/animes/39535-mushoku-tensei-isekai-ittara-honki-dasu"><img src="https://nyaa.shikimori.one/system/animes/original/39535.jpg?1614895185"></a></span>
-
-
-<span tooltip="Непризнанный школой владыка демонов! " flow="up"><a href="https://shikimori.one/animes/40496-maou-gakuin-no-futekigousha-shijou-saikyou-no-maou-no-shiso-tensei-shite-shison-tachi-no-gakkou-e"><img src="https://kawai.shikimori.one/system/animes/original/40496.jpg?1607915155"></a></span>
-
-
-<span tooltip="Повелитель тьмы: Другая история мира — Магия подчинения " flow="up"><a href="https://shikimori.one/animes/37210-isekai-maou-to-shoukan-shoujo-no-dorei-majutsu"><img src="https://nyaa.shikimori.one/system/animes/original/37210.jpg?1530810287"></a></span>
-
-
-<span tooltip="Дворянство" flow="up"><a href="https://shikimori.one/animes/41345-noblesse"><img src="https://nyaa.shikimori.one/system/animes/original/41345.jpg?1608175154"></a></span>
-
-<span tooltip="Охотник х Охотник (2011)" flow="up"><a href="https://shikimori.one/animes/z11061-hunter-x-hunter-2011"><img src="https://kawai.shikimori.one/system/animes/original/11061.jpg?1594800016"></a></span>
-
-<span tooltip="Патриотизм Мориарти" flow="up"><a href="https://shikimori.one/animes/40911-yuukoku-no-moriarty"><img src="https://kawai.shikimori.one/system/animes/original/40911.jpg?1607973549"></a></span>
-
- <span tooltip="Самурай Чамплу" flow="up"><a href="https://shikimori.one/animes/205-samurai-champloo"><img src="https://nyaa.shikimori.one/system/animes/original/205.jpg?1594843287"></a></span>
-  
- <span tooltip="Время битв" flow="up"><a href="https://shikimori.one/animes/340-mutsu-enmei-ryuu-gaiden-shura-no-toki"><img src="https://nyaa.shikimori.one/system/animes/original/340.jpg?1610702304"></a></span>
-
- <span tooltip="Эстетика изгнанного героя" flow="up"><a href="https://shikimori.one/animes/13161-hagure-yuusha-no-aesthetica"><img src="https://kawai.shikimori.one/system/animes/original/13161.jpg?1613012301"></a></span>
-
- <span tooltip="Чёрный клевер" flow="up"><a href="https://shikimori.one/animes/z34572-black-clover"><img src="https://moe.shikimori.one/system/animes/original/34572.jpg?1614963014"></a></span>
-
-  <span tooltip="Ван-Пис" flow="up"><a href="https://shikimori.one/animes/21-one-piece"><img src="https://kawai.shikimori.one/system/animes/original/21.jpg?1470452690"></a></span>
-
     
 </div>
-</div>
-
-<!-- - - - - - - - - АНИМЕ СПИСОК - - - - -- -->
 
 
+<div class="center">
+<div id="container">
 
-<div id="Manga" class="tabcontent" style="display: none;">
-<div class="favorite"> 
- <span tooltip="Прожигающие жизнь" flow="up"><a href="https://mangalib.me/zar-heat"><img src="https://desu.shikimori.one/system/mangas/original/3928.jpg?1574953132"></a></span>
+    <!--- Кнопка: Лист\ Грид -->
 
- <span tooltip="Скала Кен" flow="up"><a href="https://mangalib.me/sun-ken-rock"><img src="https://desu.shikimori.one/system/mangas/original/8848.jpg?1574948518"></a></span>
-
-  <span tooltip="Ван Пис" flow="up"><a href="https://mangalib.me/one-piece"><img src="https://desu.shikimori.one/system/mangas/original/13.jpg?1608321697"></a></span>
-
-
-  <span tooltip="Наруто" flow="up"><a href="https://mangalib.me/naruto"><img src="https://kawai.shikimori.one/system/mangas/original/11.jpg?1608227973"></a></span>
-
-  <span tooltip="Бродяга" flow="up"><a href="https://shikimori.one/mangas/656-vagabond"><img src="https://kawai.shikimori.one/system/mangas/original/656.jpg?1574957197"></a></span>
-  
-  <span tooltip="Плачущий убийца" flow="up"><a href="https://shikimori.one/mangas/1449-crying-freeman"><img src="https://dere.shikimori.one/system/mangas/original/1449.jpg?1574956391"></a></span>
-
-  
-  
+    <div class="buttons">
+        <button class="grid"><span class="material-icons">
+grid_on
+</span></button>
+        <button class="list"><span class="material-icons">
+list
+</span></button>
     </div>
+
+<!--- Меню Ава -->
+<div class="all">  
+<img class="hre" src="https://randart.ru/art/Reily/avatar-s/" width="50px" height="50px">
+ 
+  <div class="menu">
+  <nav>
+   <a  class="ripplelink" href="#">Антиконституционный</a>
+    <a  class="ripplelink" href="#">Грёзоблаженствующий</a>
+     <a  class="ripplelink"href="#">Самообороноспособность</a>
+    <a  class="ripplelink" href="#">Водоворотоподобно</a>
+    
+  </nav>
 </div>
+
+<!--- Лист\ Грид -->
+</div>
+    
+    <ul class="grid">
+    <li><div class="o">  <a href="https://mangalib.me/zar-heat?section=chapters"><img src="https://desu.shikimori.one/system/mangas/original/3928.jpg?1574953132"><p>Прожигающие жизнь</p></a></div></li>
+    <li><div class="o">  <a href="https://mangalib.me/zar-heat?section=chapters"><img src="https://desu.shikimori.one/system/mangas/original/3928.jpg?1574953132"><p>Прожигающие жизнь</p></a></div></li>
+    <li><div class="o">  <a href="https://mangalib.me/zar-heat?section=chapters"><img src="https://desu.shikimori.one/system/mangas/original/3928.jpg?1574953132"><p>Прожигающие жизнь</p></a></div></li>
+    <li><div class="o">  <a href="https://mangalib.me/zar-heat?section=chapters"><img src="https://desu.shikimori.one/system/mangas/original/3928.jpg?1574953132"><p>Прожигающие жизнь</p></a></div></li>
+    <li><div class="o">  <a href="https://mangalib.me/zar-heat?section=chapters"><img src="https://desu.shikimori.one/system/mangas/original/3928.jpg?1574953132"><p>Прожигающие жизнь</p></a></div></li>
+    <li><div class="o">  <a href="https://mangalib.me/zar-heat?section=chapters"><img src="https://desu.shikimori.one/system/mangas/original/3928.jpg?1574953132"><p>Прожигающие жизнь</p></a></div></li>
+    <li><div class="o">  <a href="https://mangalib.me/zar-heat?section=chapters"><img src="https://desu.shikimori.one/system/mangas/original/3928.jpg?1574953132"><p>Прожигающие жизнь</p></a></div></li>
+    <li><div class="o">  <a href="https://mangalib.me/zar-heat?section=chapters"><img src="https://desu.shikimori.one/system/mangas/original/3928.jpg?1574953132"><p>Прожигающие жизнь</p></a></div></li>
 
 
 
-<div class="post"><div class="acc">
-<img src="https://randart.ru/art/Reily/avatar-s/">
-    <span class="name">Reily</span>
-<span class="date">20 мар в 4:00</span>
+    </ul>
+</div>    
+
+
+<div class="right">
+    <div class="wallet">
+<div class="usd"></div>
+<div class="eur"></div>
 </div>
-  <div class="publication">
-<div id="photos">
-  <ul id="photo-gallery">
-    <li>
-      <a href="https://i.pinimg.com/originals/fe/5f/7a/fe5f7a8bee7e76f1d8eb3b29111e90c9.jpg">
-        <img src="https://i.pinimg.com/originals/fe/5f/7a/fe5f7a8bee7e76f1d8eb3b29111e90c9.jpg">
-      </a>
-    </li>
-    <li>
-      <a href="https://i.pinimg.com/originals/04/14/62/0414627886be6dbcf18ce5e13b849cac.jpg">
-        <img src="https://i.pinimg.com/originals/04/14/62/0414627886be6dbcf18ce5e13b849cac.jpg">
-      </a>
-    </li>
-    <li>
-      <a href="https://i.pinimg.com/originals/1f/5d/40/1f5d406e3cd9285376789ab939843a96.jpg">
-        <img src="https://i.pinimg.com/originals/1f/5d/40/1f5d406e3cd9285376789ab939843a96.jpg">
-      </a>
-    </li>
-    <li>
-      <a href="https://i.pinimg.com/originals/35/76/11/3576111d2ef594fbf4319320bc5a7b2f.jpg">
-        <img src="https://i.pinimg.com/originals/35/76/11/3576111d2ef594fbf4319320bc5a7b2f.jpg">
-      </a>
-    </li>
-    <li>
-      <a href="https://i.pinimg.com/originals/38/78/ad/3878ad54e20cca74b375eb4ec12f49b7.jpg">
-        <img src="https://i.pinimg.com/originals/38/78/ad/3878ad54e20cca74b375eb4ec12f49b7.jpg"></a>
-    </li>
-    <li>
-      <a href="https://i.pinimg.com/originals/07/36/08/073608be9ed1f029edef6a9b765d6230.jpg">
-        <img src="https://i.pinimg.com/originals/07/36/08/073608be9ed1f029edef6a9b765d6230.jpg">
-      </a>
-    </li>
-    <li>
-      <a href="https://i.pinimg.com/originals/2e/2a/15/2e2a1540d862d283f48b1ccd9623b73d.jpg">
-        <img src="https://i.pinimg.com/originals/2e/2a/15/2e2a1540d862d283f48b1ccd9623b73d.jpg">
-      </a>
-    </li>
-  </ul>
+
+<div class="clock">
 </div>
+
+</div>
+
+
 </div>
   
-  <div class="counter"><span class="likebtn-wrapper" data-theme="custom" data-btn_size="29" data-icon_size="18" data-icon_l="hrt6" data-icon_l_c="rgb(171,169,169)" data-icon_l_c_v="#e46e5a" data-counter_l_c="rgb(171,169,169)" data-bg_c="rgba(250,250,250,0)" data-brdr_c="rgba(198,198,198,0)" data-identifier="item_1" data-show_like_label="false" data-dislike_enabled="false" data-share_enabled="false" data-tooltip_enabled="false"></span>
-<script>(function(d,e,s){if(d.getElementById("likebtn_wjs"))return;a=d.createElement(e);m=d.getElementsByTagName(e)[0];a.async=1;a.id="likebtn_wjs";a.src=s;m.parentNode.insertBefore(a, m)})(document,"script","//w.likebtn.com/js/w/widget.js");</script></div>
-</div>
+  </body>
 
-   
-   <div class="post"><div class="acc">
-<img src="https://randart.ru/art/Reily/avatar-s/">
-    <span class="name">Reily</span>
-<span class="date">20 мар в 4:00</span>
-</div>
-  <div class="publication"><p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-
- </p>
-
-
- 
-        
-        </div> 
-     
-     <div class="counter">
-</div></div>
-
-
-
-<script>
-function openCity(evt, cityName) {
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablinks");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
-  }
-  document.getElementById(cityName).style.display = "block";
-  evt.currentTarget.className += " active";
-}
-</script>
-   
-
-        
-        <script>
-          
-var $overlay = $('<div id="overlay"></div>');
-var $image = $("<img>");
-
-//An image to overlay
-$overlay.append($image);
-
-//Add overlay
-$("body").append($overlay);
-
-  //click the image and a scaled version of the full size image will appear
-  $("#photo-gallery a").click( function(event) {
-    event.preventDefault();
-    var imageLocation = $(this).attr("href");
-
-    //update overlay with the image linked in the link
-    $image.attr("src", imageLocation);
-
-    //show the overlay
-    $overlay.show();
-  } );
-
-  $("#overlay").click(function() {
-    $( "#overlay" ).hide();
-  });
-
-        </script>
-
-
-
-      
-
-
-
-</body>
 </html>
