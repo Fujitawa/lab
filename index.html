@@ -119,6 +119,161 @@ list
 
 </div>
   
+  <script>
+
+    /* Кнопка */
+
+var btn = document.querySelector('.hre');
+btn.onclick = function(e) {
+        var element = document.querySelector(".menu");
+        if (element.classList.contains("click")) {
+                element.classList.remove("click");
+        } else {
+                element.classList.add("click");
+        }
+}
+
+
+
+
+
+/* Тема  */
+
+const toggleSwitch = document.querySelector('.mode input[type="checkbox"]');
+const currentTheme = localStorage.getItem('theme');
+
+if (currentTheme) {
+        document.documentElement.setAttribute('data-theme', currentTheme);
+
+        if (currentTheme === 'dark') {
+                toggleSwitch.checked = true;
+        }
+}
+
+function switchTheme(e) {
+        if (e.target.checked) {
+                document.documentElement.setAttribute('data-theme', 'dark');
+                localStorage.setItem('theme', 'dark');
+        } else {
+                document.documentElement.setAttribute('data-theme', 'light');
+                localStorage.setItem('theme', 'light');
+        }
+}
+
+toggleSwitch.addEventListener('change', switchTheme, false);
+
+
+/* Клик */
+
+var links = document.querySelectorAll('.ripplelink');
+
+for (var i = 0, len = links.length; i < len; i++) {
+        links[i].addEventListener('click', function(e) {
+                var targetEl = e.target;
+                var inkEl = targetEl.querySelector('.ink');
+
+                if (inkEl) {
+                        inkEl.classList.remove('animate');
+                } else {
+                        inkEl = document.createElement('span');
+                        inkEl.classList.add('ink');
+                        inkEl.style.width = inkEl.style.height = Math.max(targetEl.offsetWidth, targetEl.offsetHeight) + 'px';
+                        targetEl.appendChild(inkEl);
+                }
+
+                inkEl.style.left = (e.offsetX - inkEl.offsetWidth / 2) + 'px';
+                inkEl.style.top = (e.offsetY - inkEl.offsetHeight / 2) + 'px';
+                inkEl.classList.add('animate');
+        }, false);
+}
+
+
+
+/* грид и лист */
+
+$('button').on('click',function(e) {
+    if($(this).hasClass('list')) {
+        $('#container ul').removeClass('grid').addClass('list');
+    }
+    else if ($(this).hasClass('grid')) {
+        $('#container ul').removeClass('list').addClass('grid');
+    }
+});
+
+
+
+/* footer */
+
+
+$('.toggle').on('click', function(event) {
+  if (!$(this).hasClass("open")) {
+    $(this).siblings(".content").slideDown();
+    $(this).addClass("open");   
+  }else{
+     $(this).siblings(".content").slideUp();
+     $(this).removeClass("open"); 
+     $(this).blur();
+  }
+});
+
+$(".bottom .toggle").click(function(){
+
+  if($('.bottom .content').is(":visible")){
+      $("html, body").animate({scrollTop:$(this).offset().top-10});
+  }
+  
+});
+</script>
+
+
+<!---- Wallet --->
+
+<script>
+
+
+$.getJSON("https://www.cbr-xml-daily.ru/daily_json.js", function(data) {
+
+    $('.usd').html(data.Valute.USD.Nominal+" $: "+ data.Valute.USD.Value+" RUB");
+
+});
+
+
+
+
+$.getJSON("https://www.cbr-xml-daily.ru/daily_json.js", function(data) {
+
+    $('.eur').html(data.Valute.EUR.Nominal+" €: "+ data.Valute.EUR.Value+" RUB");
+
+});
+
+</script>
+
+<!---Часы---->
+<script>
+function clock() {// We create a new Date object and assign it to a variable called "time".
+var time = new Date(),
+    
+    // Access the "getHours" method on the Date object with the dot accessor.
+    hours = time.getHours(),
+    
+    // Access the "getMinutes" method with the dot accessor.
+    minutes = time.getMinutes(),
+    
+    
+    seconds = time.getSeconds();
+
+document.querySelectorAll('.clock')[0].innerHTML = harold(hours) + ":" + harold(minutes) + ":" + harold(seconds);
+  
+  function harold(standIn) {
+    if (standIn < 10) {
+      standIn = '0' + standIn
+    }
+    return standIn;
+  }
+}
+setInterval(clock, 1000);
+
+</script>
   </body>
 
 </html>
