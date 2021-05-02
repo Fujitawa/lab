@@ -202,7 +202,13 @@ label.mode {
 
 
 /* боковые меню */
+@media (max-width:850px)  { 
+.m-menu { 
 
+border-radius:  var(--r3) var(--r3) 0 0!important;
+
+
+}}
 
 @media (max-width:980px)  { 
 .m-menu {
@@ -210,7 +216,6 @@ label.mode {
     margin-left: auto;
     position: relative;
     width: fit-content;
-    margin-bottom: 1em;
     left: -1.3em;
     background: var(--surface);
     padding: 5pt;
@@ -260,9 +265,6 @@ label.mode {
     margin: 0 auto;
 }
 
-
-
-
 }
 
 
@@ -276,31 +278,20 @@ label.mode {
     position: absolute;
     left: 55px;
     margin-top: -26px;
-    background: black;
+    background: var(--menu);
     padding: 3pt;
-    color: white;
+    color: var(--color-one);
     border-radius: 2pt;
     visibility: hidden;
 }
-
  /* центр */
 
-.center>* {
-    margin-left: 1em;
-    margin-top: 1em;
-}
-
-@media (max-width: 850px) {
-.center>* {
-     margin-left: 0;
-}
-}
 
 .center {
     width: 100%;
     display: flex;
-    margin-top: 2em;
     justify-content: center;
+    gap: .555em;
 }
 
 @media (max-width: 850px) {  
@@ -450,19 +441,20 @@ div#container {
 .right { 
      display: flex;
     flex-direction: column;
+    align-self: flex-start;
+        gap: .55em;
     }
 
 
 .right>* {
-        max-width: 100%;
      background: var(--surface);
     border-radius: var(--r3);
     padding: 5px;
     font-family: oswald;
     font-weight: 300;
-    min-width: fit-content;
      margin-top: 3pt;
      color: var(--color-one)
+     flex: 0 0 15%;
 
 }
 
@@ -471,11 +463,14 @@ div#container {
 @media (max-width: 850px) {
     .right {
     flex-direction: row;
-    display: flex;
-    margin-right: 1em;
     place-items: center;
+    margin-left: .555em;
 }
-.right>* { 
-margin-left: 1em; 
-}
+
+
+
+/*  кнопка */
+
+.clock {
+    text-align: center;
 }
