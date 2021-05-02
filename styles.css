@@ -453,7 +453,7 @@ div#container {
     font-family: oswald;
     font-weight: 300;
      margin-top: 3pt;
-     color: var(--color-one)
+     color: var(--color-one);
      flex: 0 0 15%;
 
 }
