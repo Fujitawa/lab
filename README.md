@@ -1,3 +1,5 @@
+<center> <h3>Essay</h3> </center>
+
 <h5>Introduction.</h5>
 
 Modern technology has infiltrated the education sector and as a result, many college students now prefer taking online classes, as opposed to attending the traditional regular classes. This is because online classes are convenient for such students, and more so for those who have to both work and attend classes.
