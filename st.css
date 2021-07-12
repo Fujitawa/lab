@@ -1,44 +1,88 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 
-[ripple] {
-  position: relative;
-  overflow: hidden;
+:root {
+        --bg: white;
+        --font-color: black;
+        --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
+                sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+                "Segoe UI Symbol";
+        --btn: #5f5f5f;
+          --ripple: #c3c3c3d1;
+
+  --rounded:10em;
 }
-[ripple] .ripple--container {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+
+[data-theme="dark"] {
+        --bg: #202124;
+        --font-color: white;
+        --btn: whitesmoke;
 }
-[ripple] .ripple--container span {
-  transform: scale(0);
-  border-radius: 100%;
-  position: absolute;
-  opacity: 0.75;
-  background-color: #fff;
-  animation: ripple 1000ms;
+
+body {
+        background: var(--bg);
+        color: var(--font-color);
 }
-@-moz-keyframes ripple {
-  to {
-    opacity: 0;
-    transform: scale(2);
-  }
+
+.container {
+        max-width: 1012px;
+        margin-right: auto;
+        margin-left: auto;
+        font-family: var(--font);
+        font-size: 16px;
+        line-height: 1.5;
+        word-wrap: break-word;
 }
-@-webkit-keyframes ripple {
-  to {
-    opacity: 0;
-    transform: scale(2);
-  }
+
+.container h3 {
+        margin-top: 24px;
+        margin-bottom: 16px;
+        font-weight: 600;
+        line-height: 1.25;
 }
-@-o-keyframes ripple {
-  to {
-    opacity: 0;
-    transform: scale(2);
-  }
+
+.cc {
+        width: 30px;
 }
+
+.mode input#checkbox {
+        display: none;
+}
+
+label.mode {
+        color: var(--btn);
+        cursor: pointer;
+        user-select: none;
+}
+
+
+
+/* Ripple */
+
+.animate {
+        animation: ripple 0.65s linear;
+}
+
 @keyframes ripple {
-  to {
-    opacity: 0;
-    transform: scale(2);
-  }
+        100% {
+                opacity: 0;
+                transform: scale(2.5);
+        }
+}
+
+.ripplelink {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.4s ease;
+    z-index: 0;
+    text-align: center;
+    border-radius: var(--rounded);
+}
+
+.ink {
+        display: block;
+        position: absolute;
+        background: var(--ripple);
+        border-radius: 100%;
+        transform: scale(0);
 }
