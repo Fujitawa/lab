@@ -135,5 +135,8 @@ label.mode {
     text-align: center;
     padding: 5px 10px 5px 10px;
     border-left: 0;
+}
+
+h4 {
     font-family:var(--font-h4);
 }
