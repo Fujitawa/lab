@@ -41,6 +41,10 @@ body:after {
     bottom: 0;
 }
 
+a {
+    text-decoration:none;
+}
+
 li a {
     color: var(--link);
 }
