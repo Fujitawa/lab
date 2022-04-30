@@ -15,7 +15,7 @@
     --link: #1b008f; 
     --link-hover:#b70000;
     --hr: #d1ce7b57;
-
+ 
 }
 
 [data-theme="dark"] {
@@ -140,3 +140,47 @@ label.mode {
 h4 {
     font-family:var(--font-h4);
 }
+
+/* spoils */
+
+
+ .toggles {
+	 color: var(--font-color);
+}
+ .toggles details {
+	 margin-bottom: 0.75rem;
+}
+ .toggles details > div {
+	 margin-left: 2rem;
+	 padding: 1rem 0;
+}
+.toggles details summary {
+    border: 1px solid var(--hr);
+    padding: 1rem 2rem;
+    cursor: pointer;
+    list-style: none;
+    outline: none;
+    position: relative;
+    transition: color 0.2s;
+    border-left: 0;
+    border-radius: 0 8px 8px 0;
+}
+ .toggles details summary::-webkit-details-marker {
+	 display: none;
+}
+ .toggles details summary::before {
+	 content: "\e145";
+	 font-family: 'Material Icons';
+	 position: absolute;
+	 top: 50%;
+	 right: 2rem;
+	 transform: translateY(-50%);
+}
+
+ .toggles details[open] {
+	 color: #4d4d4d;
+}
+ .toggles details[open] summary::before {
+	 content: "\e15b";
+}
+ 
