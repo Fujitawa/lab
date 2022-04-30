@@ -66,6 +66,7 @@ li a:hover {
     word-wrap: break-word;
     z-index: 111;
     position: relative;
+    border-left: 1px solid var(--hr);
 }
 
 .container h3 {
