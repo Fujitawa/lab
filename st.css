@@ -12,6 +12,7 @@
     --rounded: 10em;
     --link: #6a0efc; 
     --link-hover:#259ffa;
+    --hr: #d1ce7b57;
 }
 
 [data-theme="dark"] {
@@ -20,6 +21,7 @@
     --btn: whitesmoke;
     --link: #ebe3bb; 
     --link-hover: #ffdca4;
+    --hr: #bac3ff63;
 }
 
 body {
@@ -121,4 +123,14 @@ label.mode {
         background: var(--ripple);
         border-radius: 100%;
         transform: scale(0);
+}
+
+.sss {
+    border: var(--hr) 1px solid;
+    width: fit-content;
+    text-align: center;
+    padding: 5px 10px 5px 10px;
+    border-top: 0;
+    border-left: 0;
+    /* border-right: 0; */
 }
