@@ -127,7 +127,7 @@ label.mode {
 
 .sss {
     border: var(--hr) 1px solid;
-    width: fit-content;
+    width: max-content;
     text-align: center;
     padding: 5px 10px 5px 10px;
     border-top: 0;
