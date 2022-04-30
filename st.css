@@ -1,6 +1,12 @@
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap');
 
+@font-face {
+  font-family: "Space_Grotesk";
+  src: local("Space_Grotesk"),
+       url("/Font/Space_Grotesk/static/SpaceGrotesk-Regular.ttf") format("ttf")
+}
+
 
 :root {
     --cover: url('https://randart.ru/art/Fujita/cover/');
