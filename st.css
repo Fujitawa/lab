@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap');
 
 :root {
-    /*--cover: url('https://randart.ru/art/Fujita/cover/');*/
+    --cover: url('https://randart.ru/art/Fujita/cover/');
     --bg: #3b3b3b;
     --font-color: black;
     --font: 'Roboto Mono', monospace;
@@ -23,7 +23,7 @@
 }
 
 body {
-        background: var(--cover);
+        /*background: var(--cover);*/
         color: var(--font-color);
         background-size: cover;
         background-attachment: fixed;
