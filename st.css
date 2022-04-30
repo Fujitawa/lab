@@ -124,7 +124,7 @@ label.mode {
         transform: scale(0);
 }
 
-.sss {
+.hr {
     border: var(--hr) 1px solid;
     width: max-content;
     text-align: center;
