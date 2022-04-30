@@ -140,7 +140,7 @@ label.mode {
     border: var(--hr) 1px solid;
     width: max-content;
     text-align: center;
-    padding: 5px 10px 5px 10px;
+    padding: 5px 10px 0 10px;
     border-left: 0;
 }
 
