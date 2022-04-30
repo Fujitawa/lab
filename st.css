@@ -10,8 +10,8 @@
     --btn: #5f5f5f;
     --ripple: #c3c3c3d1;
     --rounded: 10em;
-    --link: #6a0efc; 
-    --link-hover:#259ffa;
+    --link: #1b008f; 
+    --link-hover:#b70000;
     --hr: #d1ce7b57;
 }
 
@@ -20,7 +20,7 @@
     --font-color: white;
     --btn: whitesmoke;
     --link: #ebe3bb; 
-    --link-hover: #ffdca4;
+    --link-hover: #78ffd6;
     --hr: #bac3ff63;
 }
 
@@ -46,6 +46,7 @@ body:after {
 
 a {
     text-decoration:none;
+    transition: 1.2s all;
 }
 
 li a {
