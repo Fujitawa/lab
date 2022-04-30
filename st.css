@@ -1,6 +1,15 @@
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap');
 
+@font-face {
+  font-family: "Banery";
+  font-style: normal;
+  src: local("Banery"),
+       url("/Font/Banery/BaneryRegular-7B7Ew.otf") format("otf"),
+       url("/Font/Banery/BaneryRegular-mLg8j.ttf") format("ttf");
+}
+
+
 :root {
     --cover: url('https://randart.ru/art/Fujita/cover/');
     --bg: white;
