@@ -177,9 +177,7 @@ h4 {
 	 transform: translateY(-50%);
 }
 
- .toggles details[open] {
-	 color: #4d4d4d;
-}
+
  .toggles details[open] summary::before {
 	 content: "\e15b";
 }
