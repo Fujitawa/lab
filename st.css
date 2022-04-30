@@ -54,11 +54,11 @@ a {
     transition: 1.2s all;
 }
 
-li a {
+a {
     color: var(--link);
 }
 
-li a:hover {
+ a:hover {
     color: var(--link-hover);
 }
 
