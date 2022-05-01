@@ -16,7 +16,7 @@
     --link-hover:#b70000;
     --hr: #d1ce7b57;
     --cite:red;
-    --spoil:#605c50;
+    --spoil:#d0dfe2;
  
 }
 
@@ -28,7 +28,7 @@
     --link-hover: #78ffd6;
     --hr: #bac3ff63;
     --cite:greenyellow;
-    --spoil:#d0dfe2;
+    --spoil:#605c50;
 }
 
 body {
