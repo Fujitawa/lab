@@ -16,6 +16,7 @@
     --link-hover:#b70000;
     --hr: #d1ce7b57;
     --cite:red;
+    --spoil:#d0dfe2;
  
 }
 
@@ -27,6 +28,7 @@
     --link-hover: #78ffd6;
     --hr: #bac3ff63;
     --cite:greenyellow;
+    --spoil:#605c50;
 }
 
 body {
@@ -162,7 +164,7 @@ h4 {
 	 padding: 1rem 0;
 }
 .toggles details summary {
-    border: 1px solid var(--hr);
+    border: 1px solid var(--spoil);
     padding: 1rem 2rem;
     cursor: pointer;
     list-style: none;
