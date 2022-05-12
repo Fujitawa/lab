@@ -125,11 +125,7 @@ body {
         opacity: 0.8;
 }
 
-/* бар активности */
-.bar-container .bar {
-    border-radius: 2em 2em 0 0;
-    width: 8px !important;
-}
+
 
 .b-stats_bar.lifetime .bar .first {
     background: var(--c2);
