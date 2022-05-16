@@ -211,12 +211,17 @@ label.mode {
 
 .footer {
     border-top: 1px solid var(--border);
-    width: 100%;
+    width: 60rem;
+    margin: 0 auto;
 }
 
 .copyright, .copyright a  {
 	display: flex;
 	color:var(--copyright);
+}
+
+.copyright {
+    margin-top: 0.55em;
 }
 
 
