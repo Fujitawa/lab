@@ -1,4 +1,3 @@
-@import url("http://eoel.gq/po.css");
 @import url("https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp
 ");
 @import url("https://fonts.googleapis.com/css2?family=Stick&display=swap");
@@ -3202,3 +3201,27 @@ h3 {
         display: none !important;
 }
  
+
+/* Фиксированные размеры постеров */
+
+.b-catalog_entry .cover .image-cutter {
+        max-width: none !important;
+        max-height: none !important;
+        border-radius: 2pt;
+}
+
+.b-catalog_entry .cover .image-cutter::before {
+        content: "";
+        display: block;
+        padding-bottom: 155.5555%;
+}
+
+.b-catalog_entry .cover .image-cutter img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center top;
+}
