@@ -211,7 +211,7 @@ label.mode {
 
 .footer {
     border-top: 1px solid var(--border);
-    width: 60rem;
+    max-width: 60rem;
     margin: 0 auto;
 }
 
