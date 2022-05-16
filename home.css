@@ -46,14 +46,17 @@ body>* {
 
 
 body {
-	background: var(--cover);
-	color: var(--text);
-	    min-height: 100vh;
+    background: var(--cover) center top fixed no-repeat;
+    color: var(--text);
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-        background-size: cover;
-
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
 }
 
 
