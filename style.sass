@@ -1,0 +1,152 @@
+:root 
+	--bg: white 
+	--text: #313131 
+	--link: #4f5c81 
+	--link-hover: #b70000 
+	--border: #d9d9d9 
+	--status: #e0e0e08a 
+	--copyright: #adadad 
+	--rounded: 10em 
+	--ripple: #c3c3c3d1 
+	--rouge: #da6702 
+	--vert: #128a27 
+	--spoil: #f4f4f4 
+	--cite: red 
+[data-theme="dark"] 
+	--bg: #202124f6 
+	--text: white 
+	--link: #ebe3bb 
+	--link-hover: #78ffd6 
+	--spoil: #5a69778a 
+	--border: #00000036 
+	--status: #494949 
+	--copyright: #f7f7f7 
+	--ripple: #c3c3c3d1 
+	--rouge: #e1b676 
+	--vert: #6dde9a 
+	--cite: greenyellow 
+* 
+	box-sizing: border-box 
+	padding: 0 
+	margin: 0 
+html 
+	-webkit-text-size-adjust: 100% 
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji 
+	color: var(--text) 
+	line-height: 1.15 
+body 
+	background-color: var(--bg) 
+h1, h2 
+	font-weight: 500 
+	line-height: 1 
+.header 
+	h1 
+		font-size: 2.5rem 
+a 
+	color: var(--link) 
+	text-decoration: none 
+	transition: color 150ms ease 
+	&:hover 
+		color: var(--link-hover) 
+cite 
+	color: var(--cite) 
+	font-style: normal 
+.main 
+	line-height: 1.5 
+	word-wrap: break-word 
+.section 
+	max-width: 60rem 
+	margin: 0 auto 1.5rem 
+	padding: 1.5rem 2rem 0 
+label 
+	&.mode 
+		cursor: pointer 
+		user-select: none 
+		margin-left: auto 
+.mode 
+	input#checkbox 
+		display: none 
+.animate 
+	animation: ripple 0.65s linear 
+@keyframes 
+	ripple 
+		100% {
+                opacity: 0 
+		transform: scale(2.5) 
+} 
+	.ripplelink 
+		position: relative 
+		overflow: hidden 
+		transition: all 0.4s ease 
+		z-index: 0 
+		border-radius: var(--rounded) 
+		width: 30px 
+		height: 30px 
+		display: inline-flex 
+		align-items: center 
+		justify-content: center 
+		font-size: 1.2em 
+.ink 
+	display: block 
+	position: absolute 
+	background: var(--ripple) 
+	border-radius: var(--rounded) 
+	transform: scale(0) 
+.rouge 
+	color: var(--rouge) 
+.vert 
+	color: var(--vert) 
+.status 
+	background-color: var(--status) 
+	border-radius: 1.25rem 
+	font-size: .75rem 
+	padding: 0.25rem 0.5rem 
+	height: 4.5rem 
+	white-space: nowrap 
+	vertical-align: middle 
+.toggles 
+	color: var(--text) 
+	details 
+		margin-bottom: 0.75rem 
+		& > div 
+			margin-left: 2rem 
+			padding: 1rem 0 
+		summary 
+			padding: 0.575em 
+			cursor: pointer 
+			list-style: none 
+			outline: none 
+			position: relative 
+			transition: color 0.2s 
+			background: var(--spoil) 
+			border-radius: 0.2em 
+			&::-webkit-details-marker 
+				display: none 
+			&::before 
+				content: "\e82d" 
+				font-family: 'borr' 
+				position: absolute 
+				top: 50% 
+				right: 2rem 
+				transform: translateY(-50%) 
+	details[open] 
+		summary 
+			&::before 
+				content: "\e82f" 
+.footer 
+	border-top: 1px solid var(--border) 
+	max-width: 60rem 
+	margin: 0 auto 
+.copyright, .copyright a 
+	display: flex 
+	color: var(--copyright) 
+.copyright 
+	margin-top: 0.5em 
+	padding: 0.5em 
+.clearfix 
+	&:after 
+		content: "" 
+		display: table 
+		clear: both 
