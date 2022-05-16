@@ -100,8 +100,7 @@ cite {
 label.mode {
     cursor: pointer;
     user-select: none;
-    margin: 1em;
-    position: absolute;
+    margin-left: auto;
 }
 
 .mode input#checkbox {
