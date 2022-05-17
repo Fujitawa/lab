@@ -21,8 +21,7 @@
         --w: white;
         --mi: Material Icons;
         --mio: Material Icons Outlined;
-        --bg: url("https://randart.ru/art/Reily/bg/") fixed;
-        --point: url("http://eoel.gq/point.png");
+        --bg: url(https://randart.ru/art/borr/wall/) fixed;
         --salmon: salmon;
         --black: black;
         --b-ripple: radial-gradient(circle, #000 10%, transparent 10.01%);
@@ -124,16 +123,19 @@ body {
 }
 
 @media (min-width: 1024px) {
-        html:before {
-                background: var(--point) repeat;
-                position: fixed;
-                top: 0;
-                left: 0;
-                height: 100%;
-                width: 100%;
-                content: "";
-                opacity: 0.6;
-        }
+     html:before {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    content: "";
+    opacity: 0.4;
+    background: white;
+    background-image: radial-gradient(#6261614a 1px, transparent 0);
+    background-size: 10px 10px;
+    background-position: -19px -19px;
+}
 }
 
 /* Цвет текста ссылки по умолчанию */
