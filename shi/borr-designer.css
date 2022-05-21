@@ -59,16 +59,16 @@ body {
 
 
 .graph.vertical .line .bar-container:hover .bar {
-        background: deepskyblue !important;
+        background: var(--aaa) !important;
 }
 
 .line:nth-child(even) > .bar-container > .bar,
 .line:nth-child(even) > .bar-container > .bar:hover {
-        background: royalblue !important;
+        background: var(--aa) !important;
 }
 
 .bar.min {
-        background: dodgerblue !important;
+        background: var(--a) !important;
 }
 
 .p-profiles-show .lifetime .times .time.checked:before {
