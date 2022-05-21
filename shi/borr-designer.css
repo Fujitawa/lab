@@ -759,8 +759,8 @@ a.b-button:hover {
         border: #cecece4d 1px solid;
 }
 
-.p-profiles .profile-head .c-brief header h1 {
-    color: black;
+.p-profiles .profile-head .c-brief header h1,.b-add_to_list .trigger .text, .b-add_to_list .option .text, .b-add_to_list.planned .edit:before, .b-add_to_list.watching .edit:before, .b-add_to_list.completed .edit:before, .b-add_to_list.rewatching .edit:before, .b-add_to_list.on_hold .edit:before, .b-add_to_list.dropped .edit:before {
+    color: var(--normal);
 }
 
 .b-tag[href] {
