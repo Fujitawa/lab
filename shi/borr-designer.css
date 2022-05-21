@@ -759,7 +759,9 @@ a.b-button:hover {
         border: #cecece4d 1px solid;
 }
 
-
+.p-profiles .profile-head .c-brief header h1 {
+    color: black;
+}
 
 .b-tag[href] {
         border: 0;
@@ -817,6 +819,8 @@ a.b-button:hover {
         content: "\f106";
         font-size: 1.2em;
 }
+
+
 
 
 @media all {
