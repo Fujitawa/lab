@@ -32,6 +32,10 @@ body {
         max-width: 1000px !important;
 }
 
+.b-code-v2 {
+        border-radius:4px;
+}
+
 
 .b-stats_bar.manga .bar .first {
         background: var(--manga-bar-one);
@@ -524,6 +528,8 @@ header.l-top_menu-v2.is-search-focus.is-search-shade .global-search input {
 }
 
 /* = = = */
+
+
 
 .p-profiles .profile-content > .cc-2 .c-right .cc-2a {
         margin-bottom: 16px !important;
