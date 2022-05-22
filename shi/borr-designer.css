@@ -149,7 +149,6 @@ body {
         color: #6b6b6b;
         line-height: 16px;
         text-align: right;
-        font-weight: 200;
 }
 
         .graph.vertical:not(:hover)
