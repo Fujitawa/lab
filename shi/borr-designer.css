@@ -137,20 +137,21 @@ body {
         opacity: 1;
 }
 @media (min-width: 960px) {
-        .graph.vertical .line .bar-container .bar::after {
-                top: auto;
-                font-family: var(--main-font);
-                right: 0;
-                bottom: 100%;
-                left: auto;
-                padding: 16px 0;
-                margin: 0;
-                background: none;
-                color: black;
-                font-weight: bold;
-                line-height: 16px;
-                text-align: right;
-        }
+      .graph.vertical .line .bar-container .bar::after {
+        top: auto;
+        font-family: var(--main-font);
+        right: 0;
+        bottom: 100%;
+        left: auto;
+        padding: 16px 0;
+        margin: 0;
+        background: none;
+        color: #6b6b6b;
+        line-height: 16px;
+        text-align: right;
+        font-weight: 200;
+}
+
         .graph.vertical:not(:hover)
                 .line:last-child
                 .bar-container
