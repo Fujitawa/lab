@@ -805,11 +805,6 @@ a.b-button:hover {
 }
 
 
-.p-profiles .profile-head .c-brief header .notice span:nth-child(2),
-.p-profiles .profile-head .c-brief header .notice span:after {
-        display: none;
-}
-
 
 .b-to-top .slide:before {
         display: none;
