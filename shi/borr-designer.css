@@ -21,14 +21,18 @@
         text-decoration: none !important;
 }
 
-a:active {
-    color: var(--link-active-color) !important;
+
+a {
+    color: var(--link-color) !important;
 }
+
 a:hover {
     color: var(--link-hover-color) !important;
 }
-a {
-    color: var(--link-color) !important;
+
+
+a:active {
+    color: var(--link-active-color) !important;
 }
 
 body {
