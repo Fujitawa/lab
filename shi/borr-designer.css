@@ -21,6 +21,16 @@
         text-decoration: none !important;
 }
 
+a:active {
+    color: var(--link-active-color);
+}
+a:hover {
+    color: var(--link-hover-color);
+}
+a {
+    color: var(--link-color);
+}
+
 body {
         background: var(--main);
 }
