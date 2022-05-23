@@ -528,13 +528,13 @@ header.l-top_menu-v2.is-search-focus.is-search-shade .global-search input {
 }
 
 .b-spoiler_inline:not(.is-opened) {
-        background-color: #d4cd9f;
+        background-color: var(--odin);
         border-radius: 100pt;
         cursor: help;
 }
 
 .b-spoiler_inline:not(.is-opened):hover {
-        background-color: #c0b14d;
+        background-color: var(--tri);
 }
 
 .b-spoiler_inline.is-opened {
