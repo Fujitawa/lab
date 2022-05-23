@@ -43,8 +43,11 @@ body {
         filter: grayscale(0.66);
 }*/
 .l-page {
-        max-width: 1000px !important;
+        max-width: 1000px !important;  
+        background: transparent;
+
 }
+
 
 .b-code-v2 {
         border-radius:4px;
