@@ -744,7 +744,7 @@ a.b-button:hover {
 .b-link_button.dark,
 .b-link_button,
 .b-poll .poll-actions .vote,
-.b-poll .poll-actions .abstain {
+.b-poll .poll-actions .abstain, .b-link_button.blue  {
         transition: background 0.8s ease-out;
         background: #ffffff00
                 radial-gradient(circle, transparent 1%, #cecece4d 1%)
@@ -759,7 +759,7 @@ a.b-button:hover {
 .b-link_button.dark:active,
 .b-link_button:active,
 .b-poll .poll-actions .vote:active,
-.b-poll .poll-actions .abstain:active {
+.b-poll .poll-actions .abstain:active,.b-link_button.blue:active  {
         background-color: transparent;
         background-size: 100%;
         transition: background 0s;
@@ -770,7 +770,7 @@ a.b-button:hover {
 .b-link_button.dark:hover,
 .b-link_button:hover,
 .b-poll .poll-actions .vote:hover,
-.b-poll .poll-actions .abstain:hover {
+.b-poll .poll-actions .abstain:hover,.b-link_button.blue:hover {
         background-color: transparent;
         color: black;
         border: #cecece4d 1px solid;
