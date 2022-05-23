@@ -521,7 +521,7 @@ header.l-top_menu-v2.is-search-focus.is-search-shade .global-search input {
         color: black;
 }
 
-.b-spoiler_block > span:hover {
+.b-spoiler_block > span:hover, .b-spoiler_block>span:active {
         background: aliceblue;
 }
 
