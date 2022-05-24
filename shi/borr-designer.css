@@ -1078,4 +1078,7 @@ a.b-button:hover {
 
 
 /* video */
-.b-video img{width: 100%;backface-visibility: hidden}.b-video .video-link{border-radius: 3px;overflow: hidden}.b-video .video-link::before{content: "play_arrow";height: auto;padding: 0.05em;margin: auto;font-size: 2.5rem !important;transform: translate3d(-50%, -50%, 0);pointer-events: none;z-index: 3;font-family: 'Material Icons'}.b-video .name{top: 0;left: 0;min-width: 100%;padding: 2px 8px 2px;background: linear-gradient(rgba(0, 0, 0, 0.56), transparent);font-size: 0.75rem;line-height: 20px;text-align: left;backface-visibility: hidden}.b-video .marker{background: rgba(0, 0, 0, 0.8);border-radius: 3px;color: #fff;font-size: 0.75em;font-style: normal;font-weight: bold;text-transform: none;backface-visibility: hidden;z-index: 2}.b-video .marker::before{content: "play_arrow";display: inline-block;vertical-align: top;padding: 0;margin: 1px 4px 0 -6px;font-size: 18px !important;font-family: 'Material Icons'}
+.b-video .video-link {
+    border-radius: 4px;
+    overflow: hidden;
+}
