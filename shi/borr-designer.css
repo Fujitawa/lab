@@ -792,6 +792,10 @@ a.b-button:hover {
         background-color: var(--c1);
 }
 
+.b-anime_status_tag.other {
+    background-color: #00b6ff;
+    border: 1px solid #00b6ff;
+}
 
 
 .p-profiles .profile-head .c-brief .avatar .profile-actions {
