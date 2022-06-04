@@ -1,0 +1,38 @@
+@import url(https://newlab.ga/shi/borr-designer.css); /* Основной код */
+@import url("https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap"); /* Шрифт */
+@import url(https://newlab.ga/Font/css/borr-embedded.css); /* Подключение иконок */
+
+@media all {
+  :root {
+    --main:  white; 
+--odin:hsl(0deg 11% 76%);
+--dva: hsl(0deg 11% 73%);
+--tri: hsl(0deg 11% 69%);
+    --manga-bar-one:  var(--odin);
+    --manga-bar-two:  var(--dva);
+    --manga-bar-three:  var(--tri);
+    --anime-bar-one:  var(--odin);
+    --anime-bar-two:  var(--dva);
+    --anime-bar-three:  var(--tri);
+    --a:  var(--odin);
+    --aa:  var(--dva);
+    --aaa:  var(--tri);
+    --c2:  var(--odin);
+    --c3:  whitesmoke;
+    --su:  #fbfbfb;
+    --menu-link-color:  #7d7d7d;
+    --menu-link-color-hover:  #3a3b44;
+    --submenu-img-hover:  0 0 0 4px rgb(235, 235, 235);
+    --c1:  #00000012;
+    --link-color:  hsl(198deg 7% 39%) !important;
+    --link-hover-color:  hsl(197deg 9% 31%) !important;
+    --link-active-color:  hsl(198deg 8% 24%) !important;
+    --headline-color:  var(--link-color) !important;
+    --font-main:  "Play", sans-serif !important;
+    --font-alt:  var(--font-main) !important;
+}
+}
+
+body#profiles_show .notice span:first-child, body#profiles_show .notice span:last-child {
+    display: none;
+}
