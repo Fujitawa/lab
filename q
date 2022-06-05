@@ -1,0 +1,84 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://newlab.ga/Font/css/borr-embedded.css">
+	<link href="fav.png" rel="shortcut icon" type="image/x-icon">
+	<title>Quotes</title>
+</head>
+<body>
+	
+
+	<div class="main">
+		<div class="section header">
+		</div>
+			<div class="section">
+		<ul>
+    <li>
+     « La vérité punit l’arrogance en jetant le désespoir sur ceux qui en font trop » - Fullmetal Alchemist Brotherhood
+    </li>
+  
+   </ul>
+
+  		</div>
+
+
+		<div class="clearfix footer"role="contentinfo">
+			<span class="copyright"><a  href="mailto:nwibragim@gmail.com"><i class="icon-mail-alt"></i></a> <h5 style="margin: 0 0 0 10px;">© 2022  All rights reserved.</h5>  <label class="mode" for="checkbox">
+    <input type="checkbox" id="checkbox">
+    <span class="ripplelink">
+     <i class="demo-icon icon-moon-inv"></i>
+    </span>
+				</label> </span>
+
+		</div>
+
+
+
+
+		 <script>
+   /* Тема  */
+   const toggleSwitch = document.querySelector('.mode input[type="checkbox"]');
+   const currentTheme = localStorage.getItem('theme');
+   if (currentTheme) {
+    document.documentElement.setAttribute('data-theme', currentTheme);
+    if (currentTheme === 'dark') {
+     toggleSwitch.checked = true;
+    }
+   }
+
+   function switchTheme(e) {
+    if (e.target.checked) {
+     document.documentElement.setAttribute('data-theme', 'dark');
+     localStorage.setItem('theme', 'dark');
+    } else {
+     document.documentElement.setAttribute('data-theme', 'light');
+     localStorage.setItem('theme', 'light');
+    } 
+   }
+   toggleSwitch.addEventListener('change', switchTheme, false);
+   /* Клик */
+   var links = document.querySelectorAll('.ripplelink');
+   for (var i = 0, len = links.length; i < len; i++) {
+    links[i].addEventListener('click', function(e) {
+     var targetEl = e.target;
+     var inkEl = targetEl.querySelector('.ink');
+     if (inkEl) {
+      inkEl.classList.remove('animate');
+     } else {
+      inkEl = document.createElement('span');
+      inkEl.classList.add('ink');
+      inkEl.style.width = inkEl.style.height = Math.max(targetEl.offsetWidth, targetEl.offsetHeight) + 'px';
+      targetEl.appendChild(inkEl);
+     }
+     inkEl.style.left = (e.offsetX - inkEl.offsetWidth / 2) + 'px';
+     inkEl.style.top = (e.offsetY - inkEl.offsetHeight / 2) + 'px';
+     inkEl.classList.add('animate');
+    }, false);
+   }
+  </script>
+	</div>
+	
+</body>
+</html>
