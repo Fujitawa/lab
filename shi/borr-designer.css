@@ -489,7 +489,11 @@ body {
 .l-top_menu-v2 .logo-container .glyph {
         filter: brightness(0);
 }
-
+@media all {
+.l-top_menu-v2 .logo-container .glyph {
+ display:block !important;       
+}
+}
 
 .l-top_menu-v2 .global-search input {
         background: #f3f3f3;
