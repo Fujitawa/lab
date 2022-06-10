@@ -470,7 +470,7 @@ body {
         .menu-dropdown.profile span[data-unread_count]:before {
                 content: attr(data-unread_count);
                 /*background: #89b7c5;*/
-                background: #8374f1;
+                background: var(--tri);
                 position: absolute;
                 top: 0;
                 border-radius: 3pt;
