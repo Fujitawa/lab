@@ -668,15 +668,13 @@ header.l-top_menu-v2.is-search-focus.is-search-shade .global-search input {
 .b-catalog_entry .cover .image-cutter {
         max-width: none !important;
         max-height: none !important;
-        border-radius: 2pt;
+        border-radius:2pt;
 }
-
 .b-catalog_entry .cover .image-cutter::before {
         content: "";
         display: block;
         padding-bottom: 155.5555%;
 }
-
 .b-catalog_entry .cover .image-cutter img {
         position: absolute;
         top: 0;
@@ -685,6 +683,13 @@ header.l-top_menu-v2.is-search-focus.is-search-shade .global-search input {
         height: 100%;
         object-fit: cover;
         object-position: center top;
+}
+.b-collection-topic > .inner .see-more {
+        height: auto;
+}
+.b-collection-topic > .inner .see-more .text {
+        position: absolute;
+        top: 0;
 }
 
 
