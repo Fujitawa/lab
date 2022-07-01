@@ -665,6 +665,14 @@ header.l-top_menu-v2.is-search-focus.is-search-shade .global-search input {
                 margin-bottom: 6px;
         }
 }
+.p-profiles-show .achievements .cc-achievements .b-achievement,
+.b-badge img,
+.b-badge .no-image {
+        border-radius: 3px;
+}
+.b-achievement .c-image .inner a .border {
+        border: none;
+}
 
 
 .b-catalog_entry .cover .image-cutter {
