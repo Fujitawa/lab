@@ -55,6 +55,26 @@ body {
         border-radius:4px;
 }
 
+.p-profiles-show .b-stats_bar .bar {
+    border-radius: 4pt;
+    line-height: 8px;
+ 	font-size: 0;
+}
+
+.p-profiles-show .b-stats_bar .bar div {
+    vertical-align: top;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .bar {
+    width: auto;
+}
+
+.b-stats_bar .bar {
+    height: auto;
+}
+
 
 .b-stats_bar.manga .bar .first {
         background: var(--manga-bar-one);
