@@ -1,5 +1,8 @@
 /* ЕСЛИ БУДУТ ВОПРОСЫ ПО ТЕМЕ ПИШИТЕ МНЕ https://shikimori.org/borr */
 
+: root {
+           		--round:100px;   
+}
 
 ::-webkit-scrollbar {
     width: 9px;
