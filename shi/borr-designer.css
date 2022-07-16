@@ -1132,3 +1132,38 @@ a.b-button:hover {
     border-radius: 4px;
     overflow: hidden;
 }
+
+/* tooltip */
+
+.tooltip-inner {
+    background: white;
+    border-radius: 3pt;
+    box-shadow: 0px 1px 2px 1px rgb(0 0 0 / 20%);
+}
+
+.tooltip-inner, .tooltip {
+    border: 0;
+}
+
+.tooltip-arrow {
+    background: none !important;
+}
+
+.tooltip-inner .close {
+    background: transparent;
+    color: red;
+}
+
+
+
+
+.dropshadow-top,
+.dropshadow-left,
+.dropshadow-right,
+.dropshadow-bottom,
+.dropshadow-bottom-right,
+.dropshadow-bottom-left,
+.dropshadow-top-left,
+.dropshadow-top-right {
+        background: none !important;
+}
