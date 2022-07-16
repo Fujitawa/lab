@@ -808,7 +808,7 @@ a.b-button:hover {
 .b-link_button.dark:active,
 .b-link_button:active,
 .b-poll .poll-actions .vote:active,
-.b-poll .poll-actions .abstain:active,.b-link_button.blue:active,.b-button.blue:active, .b-log_entry .moderation a:not(.link)(:active)  {
+.b-poll .poll-actions .abstain:active,.b-link_button.blue:active,.b-button.blue:active, .b-log_entry .moderation a:not(.link):active  {
         background-color: transparent;
         background-size: 100%;
         transition: background 0s;
@@ -819,7 +819,7 @@ a.b-button:hover {
 .b-link_button.dark:hover,
 .b-link_button:hover,
 .b-poll .poll-actions .vote:hover,
-.b-poll .poll-actions .abstain:hover,.b-link_button.blue:hover,.b-button.blue:hover, .b-log_entry .moderation a:not(.link)(:hover) {
+.b-poll .poll-actions .abstain:hover,.b-link_button.blue:hover,.b-button.blue:hover, .b-log_entry .moderation a:not(.link):hover {
         background-color: transparent;
         color: black;
         border: #cecece4d 1px solid;
