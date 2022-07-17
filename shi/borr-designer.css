@@ -1105,7 +1105,11 @@ a.b-button:hover {
 }
 
 .b-comments-notifier {
-    background: var(--tri);
+    background: var(--dva);
+}
+
+.b-comments-notifier:hover {
+    background-color: var(--tri);
 }
 
 
