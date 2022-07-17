@@ -1100,6 +1100,11 @@ a.b-button:hover {
 }
 
 
+.b-comment>.inner header img {
+    border-radius: var(--round);
+}
+
+
 /*==*/
 /* fallback */
 @font-face {
