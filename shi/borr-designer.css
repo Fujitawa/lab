@@ -1137,7 +1137,7 @@ a.b-button:hover {
 
 .tooltip-inner {
     background: white;
-    border-radius: 3pt;
+    border-radius: 2pt;
     box-shadow: 0px 1px 3px 0px rgb(0 0 0 / 20%);
 }
 
