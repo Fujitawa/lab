@@ -1104,6 +1104,10 @@ a.b-button:hover {
     border-radius: var(--round);
 }
 
+.b-comments-notifier {
+    background: var(--tri);
+}
+
 
 /*==*/
 /* fallback */
