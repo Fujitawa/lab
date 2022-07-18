@@ -1265,5 +1265,6 @@ a.b-button:hover {
     border-bottom: 1px solid #ffffff69;
 }
 .b-add_to_list .expanded-options .option .text {
-    padding: 0 6pt;
+    padding: 0 10pt;
 }
+padding: 0 0 0 0.45em;
