@@ -1248,3 +1248,12 @@ a.b-button:hover {
  {
  color:white;
  }
+
+.b-add_to_list .trigger, .b-add_to_list .option {
+ border:none;
+ padding: 0 0 0 6pt;
+}
+
+.b-add_to_list .trigger-arrow {
+    border-left: 1px solid #ffffff69;
+}
