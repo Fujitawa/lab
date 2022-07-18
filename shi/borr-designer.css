@@ -1251,7 +1251,11 @@ a.b-button:hover {
 
 .b-add_to_list .trigger, .b-add_to_list .option {
  border:none;
- padding: 0 0 0 6pt;
+ padding: 0;
+}
+
+.b-add_to_list .option .text:hover {
+    background: #ffffff57;
 }
 
 .b-add_to_list .trigger-arrow {
@@ -1259,4 +1263,7 @@ a.b-button:hover {
 }
 .b-add_to_list.completed .trigger {
     border-bottom: 1px solid #ffffff69;
+}
+.b-add_to_list .expanded-options .option .text {
+    padding: 0 6pt;
 }
