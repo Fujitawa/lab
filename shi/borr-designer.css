@@ -1191,3 +1191,60 @@ a.b-button:hover {
 .dropshadow-top-right {
         background: none !important;
 }
+
+.b-add_to_list.planned .trigger,
+.b-add_to_list.planned .option {
+  background: #76cbff;
+  border-color: #76cbff;
+}
+.b-add_to_list.on_hold .trigger,
+.b-add_to_list.on_hold .option {
+  background: #eeeeee;
+  color: #4c4f51;
+  border-color: #eeeeee;
+}
+.b-add_to_list.watching .trigger,
+.b-add_to_list.watching .option {
+  background: #add1dc;
+  border-color: #add1dc;
+}
+.b-add_to_list.rewatching .trigger,
+.b-add_to_list.rewatching .option {
+  background: #98a9d7;
+  border-color: #98a9d7;
+}
+.b-add_to_list.completed .trigger,
+.b-add_to_list.completed .option {
+  background: #b2da98;
+  border-color: #b2da98;
+}
+.b-add_to_list.dropped .trigger,
+.b-add_to_list.dropped .option {
+  background: #ecbaad;
+  border-color: #ecbaad;
+}
+
+.b-add_to_list.planned .trigger,
+.b-add_to_list.planned .option, 
+.b-add_to_list.dropped .trigger,
+.b-add_to_list.dropped .option,
+.b-add_to_list.completed .trigger,
+.b-add_to_list.completed .option,
+.b-add_to_list.rewatching .trigger,
+.b-add_to_list.rewatching .option,
+.b-add_to_list.watching .trigger,
+.b-add_to_list.watching .option,
+.b-add_to_list.on_hold .trigger,
+.b-add_to_list.on_hold .option,
+.b-add_to_list .trigger-arrow, .b-add_to_list .plus,
+.b-add_to_list.planned .trigger-arrow:hover,
+.b-add_to_list.dropped .trigger-arrow:hover,
+.b-add_to_list.watching .trigger-arrow:hover,
+.b-add_to_list.rewatching .trigger-arrow:hover,
+.b-add_to_list.completed .trigger-arrow:hover,
+.b-add_to_list.on_hold .trigger-arrow:hover,
+.b-add_to_list.planned .trigger,
+.b-add_to_list.planned .option
+ {
+ color:white;
+ }
