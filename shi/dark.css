@@ -5,10 +5,17 @@
         .b-ajax:before {
                 background: rgba(254, 254, 254, 0.75);
         }
-        body,
-        .l-page {
-                background: #202125;
+
+        body {
+                background: url(https://randart.ru/art/borr/wall/) no-repeat
+                        fixed; /* сюда можешь поставить ссылку на свою картинку */
+                background-size: cover;
         }
+
+        .l-page {
+                background: #000000d6;
+        }
+
         h2,
         h3,
         h4 {
@@ -81,7 +88,7 @@
                 border: 1px solid #000 !important;
         }
         .l-top_menu-v2 {
-                background: rgba(0, 0, 0, 0.7) !important;
+                background: black !important;
         }
         .l-top_menu-v2 .global-search input {
                 background: rgba(255, 255, 255, 0);
