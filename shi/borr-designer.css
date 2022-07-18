@@ -1257,3 +1257,6 @@ a.b-button:hover {
 .b-add_to_list .trigger-arrow {
     border-left: 1px solid #ffffff69;
 }
+.b-add_to_list.completed .trigger {
+    border-bottom: 1px solid #ffffff69;
+}
