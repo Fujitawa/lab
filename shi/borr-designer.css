@@ -1276,3 +1276,6 @@ a.b-button:hover {
 .b-add_to_list.expanded .trigger {
     border-radius: 2pt 2pt 0 0 !important;
 }
+.b-add_to_list .trigger {
+    border-radius: 3pt;
+}
