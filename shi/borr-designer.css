@@ -1267,3 +1267,11 @@ a.b-button:hover {
 .b-add_to_list .expanded-options .option .text {
     padding: 0 10pt;
 }
+
+.expanded-options[style="height: 180px; display: block;"] {
+    border-radius: 0 0 3pt 3pt;
+}
+
+.b-add_to_list.expanded .trigger {
+    border-radius: 2pt 2pt 0 0 !important;
+}
