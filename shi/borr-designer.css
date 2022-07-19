@@ -1111,7 +1111,9 @@ a.b-button:hover {
 .b-comments-notifier:hover {
     background-color: var(--tri);
 }
-
+.b-comment>.inner>.body {
+           margin-top: 1em;
+}
 
 /*==*/
 /* fallback */
