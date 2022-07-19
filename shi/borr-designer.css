@@ -1243,7 +1243,8 @@ a.b-button:hover {
 .b-add_to_list.completed .trigger-arrow:hover,
 .b-add_to_list.on_hold .trigger-arrow:hover,
 .b-add_to_list.planned .trigger,
-.b-add_to_list.planned .option
+.b-add_to_list.planned .option,
+.b-add_to_list .expanded-options .remove-trigger .text
  {
  color:white;
  }
