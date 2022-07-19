@@ -1199,9 +1199,8 @@ a.b-button:hover {
 }
 .b-add_to_list.on_hold .trigger,
 .b-add_to_list.on_hold .option {
-  background: #eeeeee;
-  color: #4c4f51;
-  border-color: #eeeeee;
+  background: #cdcdcd;
+  border-color: #cdcdcd;
 }
 .b-add_to_list.watching .trigger,
 .b-add_to_list.watching .option {
