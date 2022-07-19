@@ -1206,8 +1206,8 @@ a.b-button:hover {
 }
 .b-add_to_list.watching .trigger,
 .b-add_to_list.watching .option {
-  background: #add1dc;
-  border-color: #add1dc;
+  background: #9fc0ca;
+  border-color: #9fc0ca;
 }
 .b-add_to_list.rewatching .trigger,
 .b-add_to_list.rewatching .option {
